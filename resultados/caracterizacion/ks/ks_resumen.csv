@@ -1,0 +1,6 @@
+Dataset,# cols evaluadas (KS),# cols normales (KS),% cols normales (KS),p-valor min,p-valor mediana,p-valor max
+glass,9,0,0.0,0.0,0.0,0.042
+ecoli,7,1,14.3,0.0,0.0003,0.2114
+heart,13,3,23.1,0.0,0.0,0.2992
+wdbc,30,5,16.7,0.0,0.0,0.4608
+shuttle,9,0,0.0,0.0,0.0,0.0

@@ -1,0 +1,9 @@
+dataset,cantidad_muestras,cantidad_atributos,cantidad_clases,clase_minima_real,clase_mayoritaria_real,n_min,n_max,ratio_desequilibrio_max,entropia_clases,tamano_efectivo_clases,porcentaje_faltantes,porcentaje_duplicados,asimetria_mediana,curtosis_mediana,porcentaje_variables_con_normalidad_no_rechazada,correlacion_absoluta_maxima,porcentaje_pares_correlacion_mayor_0_9,rango_mediano_variables,rango_maximo_variables,sugerencia_escalado
+us_crime,1994,100,2,1,-1,150,1844,12.2933,0.267,1.306,0.0,0.0,0.969,1.123,0.0,0.996,0.99,1.0,1.0,RobustScaler
+shuttle,58000,9,7,6,1,10,45586,4558.6,0.6656,1.9457,0.0,0.0,1.096,8.438,0.0,0.915,2.78,623.0,41903.0,RobustScaler
+wdbc,569,30,2,M,B,212,357,1.684,0.6603,1.9354,0.0,0.0,1.414,2.986,0.0,0.998,4.83,0.467,4068.8,RobustScaler
+glass,214,9,6,6,2,9,76,8.4444,1.5087,4.5207,0.0,0.47,1.614,2.953,0.0,0.81,0.0,4.49,10.76,RobustScaler
+heart,303,13,5,4,0,13,164,12.6154,1.2795,3.5949,0.0,0.0,0.506,-0.414,0.0,0.578,0.0,3.0,438.0,MinMaxScaler
+iris,150,4,3,Iris-setosa,Iris-setosa,50,50,1.0,1.0986,3.0,0.0,2.0,0.104,-0.954,25.0,0.963,16.67,3.0,5.9,MinMaxScaler
+ecoli,336,7,8,imL,cp,2,143,71.5,1.5171,4.5591,0.0,0.0,0.412,0.238,0.0,0.809,0.0,0.88,0.99,MinMaxScaler
+predict_faults,10000,5,6,Random Failures,No Failure,18,9652,536.2222,0.2023,1.2242,0.0,0.0,0.027,-0.5,20.0,0.876,0.0,72.8,1718.0,MinMaxScaler

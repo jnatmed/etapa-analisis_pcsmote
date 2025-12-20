@@ -1,0 +1,21 @@
+CLASE PCSMOTE
+
+FUNCION caso base (generar_caso_base)
+1) cargo el dataset
+2) divido el dataset en entrenamiento y testeo
+3) guardo la parte train y test en distintos archivos csv. Estos archivos se guardan en dataset/datasets_aumentados/base
+
+FUNCION aumentar_dataset_pcsmote_y_guardar
+1) cargo el dataset
+2) divido en train y test (antes del sobremurestreo)
+3) escalo ambas partes train/ test.
+4) hago la aumentacion sobre la parte train, segun configuracion de densidad, reisego y pureza.
+5) guardo la parte train aumentada en un archivo con los datos de configuracion de aumentacion utilizados para la aumentacion (densidad, riesgo, pureza)
+
+BLOQUE CENTRAL DE EJECUCION: tecnica de pcsmote
+- establesco las distintos valores de densidad riesgo y pureza, para realizar las combinaciones de aumentacion de cada dataset.
+- ciclo para cada dataset:
+	1) ejecuto la funcion generar caso base enviandole el nombre del caso base
+	2) por cada combinacio de aumentacion (en total = 15 combinaciones)
+		2.1) ejecutar la funcion aumentar_dataset_pcsmote_y_guardar (nombre_dataset, configuracion de densidad, riesgo, pureza)
+		2.2) guardar el log de la aumentacion en un archivo

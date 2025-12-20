@@ -1,0 +1,2041 @@
+📁 Dataset: shuttle
+#01 ➕ Aumentando con D=25 | R=25 | P=entropia
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 25 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R25_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R25_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R25_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R25_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D25_R25_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D25_R25_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D25_R25_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D25_R25_Pentropia.xlsx
+#02 ➕ Aumentando con D=25 | R=25 | P=proporcion
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 25 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R25_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R25_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R25_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R25_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D25_R25_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D25_R25_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D25_R25_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D25_R25_Pproporcion.xlsx
+#03 ➕ Aumentando con D=25 | R=50 | P=entropia
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 50 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R50_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R50_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R50_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R50_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D25_R50_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D25_R50_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D25_R50_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D25_R50_Pentropia.xlsx
+#04 ➕ Aumentando con D=25 | R=50 | P=proporcion
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 50 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R50_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R50_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R50_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R50_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D25_R50_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D25_R50_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D25_R50_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D25_R50_Pproporcion.xlsx
+#05 ➕ Aumentando con D=25 | R=75 | P=entropia
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 75 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R75_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R75_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R75_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R75_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D25_R75_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D25_R75_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D25_R75_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D25_R75_Pentropia.xlsx
+#06 ➕ Aumentando con D=25 | R=75 | P=proporcion
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 75 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R75_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R75_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R75_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D25_R75_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D25_R75_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D25_R75_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D25_R75_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D25_R75_Pproporcion.xlsx
+#07 ➕ Aumentando con D=50 | R=25 | P=entropia
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 25 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R25_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R25_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R25_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R25_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D50_R25_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D50_R25_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D50_R25_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D50_R25_Pentropia.xlsx
+#08 ➕ Aumentando con D=50 | R=25 | P=proporcion
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 25 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R25_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R25_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R25_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R25_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D50_R25_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D50_R25_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D50_R25_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D50_R25_Pproporcion.xlsx
+#09 ➕ Aumentando con D=50 | R=50 | P=entropia
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 50 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R50_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R50_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R50_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R50_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D50_R50_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D50_R50_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D50_R50_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D50_R50_Pentropia.xlsx
+#10 ➕ Aumentando con D=50 | R=50 | P=proporcion
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 50 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R50_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R50_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R50_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R50_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D50_R50_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D50_R50_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D50_R50_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D50_R50_Pproporcion.xlsx
+#11 ➕ Aumentando con D=50 | R=75 | P=entropia
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 75 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R75_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R75_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R75_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R75_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D50_R75_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D50_R75_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D50_R75_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D50_R75_Pentropia.xlsx
+#12 ➕ Aumentando con D=50 | R=75 | P=proporcion
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 75 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R75_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R75_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R75_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D50_R75_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D50_R75_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D50_R75_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D50_R75_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D50_R75_Pproporcion.xlsx
+#13 ➕ Aumentando con D=75 | R=25 | P=entropia
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 25 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R25_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R25_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R25_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R25_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D75_R25_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D75_R25_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D75_R25_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D75_R25_Pentropia.xlsx
+#14 ➕ Aumentando con D=75 | R=25 | P=proporcion
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 25 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R25_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R25_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R25_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R25_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D75_R25_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D75_R25_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D75_R25_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D75_R25_Pproporcion.xlsx
+#15 ➕ Aumentando con D=75 | R=50 | P=entropia
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 50 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R50_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R50_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R50_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R50_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D75_R50_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D75_R50_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D75_R50_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D75_R50_Pentropia.xlsx
+#16 ➕ Aumentando con D=75 | R=50 | P=proporcion
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 50 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R50_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R50_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R50_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R50_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D75_R50_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D75_R50_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D75_R50_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D75_R50_Pproporcion.xlsx
+#17 ➕ Aumentando con D=75 | R=75 | P=entropia
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 75 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R75_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R75_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R75_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R75_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D75_R75_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D75_R75_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D75_R75_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D75_R75_Pentropia.xlsx
+#18 ➕ Aumentando con D=75 | R=75 | P=proporcion
+📂 Cargando dataset: shuttle
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 75 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=40 pos_fp=9c9ce170f23f
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=137 pos_fp=155723e79644
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=7122 pos_fp=b5fdaa4231ad
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=2614 pos_fp=c96aa969a9cc
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=8 pos_fp=ca88ba34224d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7fa4f5d286ce
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(46400,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(46400,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R75_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R75_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R75_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_shuttle_D75_R75_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D75_R75_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D75_R75_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_shuttle_D75_R75_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_shuttle_D75_R75_Pproporcion.xlsx
+
+📁 Dataset: wdbc
+#01 ➕ Aumentando con D=25 | R=25 | P=entropia
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 25 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R25_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R25_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R25_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R25_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D25_R25_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D25_R25_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D25_R25_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D25_R25_Pentropia.xlsx
+#02 ➕ Aumentando con D=25 | R=25 | P=proporcion
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 25 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R25_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R25_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R25_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R25_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D25_R25_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D25_R25_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D25_R25_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D25_R25_Pproporcion.xlsx
+#03 ➕ Aumentando con D=25 | R=50 | P=entropia
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 50 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R50_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R50_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R50_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R50_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D25_R50_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D25_R50_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D25_R50_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D25_R50_Pentropia.xlsx
+#04 ➕ Aumentando con D=25 | R=50 | P=proporcion
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 50 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R50_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R50_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R50_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R50_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D25_R50_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D25_R50_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D25_R50_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D25_R50_Pproporcion.xlsx
+#05 ➕ Aumentando con D=25 | R=75 | P=entropia
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 75 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R75_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R75_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R75_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R75_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D25_R75_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D25_R75_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D25_R75_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D25_R75_Pentropia.xlsx
+#06 ➕ Aumentando con D=25 | R=75 | P=proporcion
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 75 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R75_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R75_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R75_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D25_R75_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D25_R75_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D25_R75_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D25_R75_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D25_R75_Pproporcion.xlsx
+#07 ➕ Aumentando con D=50 | R=25 | P=entropia
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 25 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R25_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R25_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R25_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R25_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D50_R25_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D50_R25_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D50_R25_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D50_R25_Pentropia.xlsx
+#08 ➕ Aumentando con D=50 | R=25 | P=proporcion
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 25 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R25_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R25_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R25_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R25_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D50_R25_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D50_R25_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D50_R25_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D50_R25_Pproporcion.xlsx
+#09 ➕ Aumentando con D=50 | R=50 | P=entropia
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 50 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R50_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R50_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R50_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R50_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D50_R50_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D50_R50_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D50_R50_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D50_R50_Pentropia.xlsx
+#10 ➕ Aumentando con D=50 | R=50 | P=proporcion
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 50 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R50_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R50_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R50_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R50_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D50_R50_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D50_R50_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D50_R50_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D50_R50_Pproporcion.xlsx
+#11 ➕ Aumentando con D=50 | R=75 | P=entropia
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 75 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R75_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R75_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R75_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R75_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D50_R75_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D50_R75_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D50_R75_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D50_R75_Pentropia.xlsx
+#12 ➕ Aumentando con D=50 | R=75 | P=proporcion
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 75 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R75_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R75_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R75_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D50_R75_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D50_R75_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D50_R75_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D50_R75_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D50_R75_Pproporcion.xlsx
+#13 ➕ Aumentando con D=75 | R=25 | P=entropia
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 25 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R25_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R25_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R25_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R25_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D75_R25_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D75_R25_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D75_R25_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D75_R25_Pentropia.xlsx
+#14 ➕ Aumentando con D=75 | R=25 | P=proporcion
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 25 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R25_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R25_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R25_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R25_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D75_R25_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D75_R25_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D75_R25_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D75_R25_Pproporcion.xlsx
+#15 ➕ Aumentando con D=75 | R=50 | P=entropia
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 50 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R50_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R50_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R50_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R50_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D75_R50_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D75_R50_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D75_R50_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D75_R50_Pentropia.xlsx
+#16 ➕ Aumentando con D=75 | R=50 | P=proporcion
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 50 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R50_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R50_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R50_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R50_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D75_R50_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D75_R50_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D75_R50_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D75_R50_Pproporcion.xlsx
+#17 ➕ Aumentando con D=75 | R=75 | P=entropia
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 75 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R75_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R75_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R75_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R75_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D75_R75_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D75_R75_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D75_R75_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D75_R75_Pentropia.xlsx
+#18 ➕ Aumentando con D=75 | R=75 | P=proporcion
+📂 Cargando dataset: wdbc
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 75 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=170 pos_fp=e7e1e4d59b85
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(455,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(455,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R75_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R75_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R75_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_wdbc_D75_R75_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D75_R75_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D75_R75_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_wdbc_D75_R75_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_wdbc_D75_R75_Pproporcion.xlsx
+
+📁 Dataset: glass
+#01 ➕ Aumentando con D=25 | R=25 | P=entropia
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 25 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D25_R25_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D25_R25_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D25_R25_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D25_R25_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D25_R25_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D25_R25_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D25_R25_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D25_R25_Pentropia.xlsx
+#02 ➕ Aumentando con D=25 | R=25 | P=proporcion
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 25 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D25_R25_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D25_R25_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D25_R25_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D25_R25_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D25_R25_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D25_R25_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D25_R25_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D25_R25_Pproporcion.xlsx
+#03 ➕ Aumentando con D=25 | R=50 | P=entropia
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 50 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D25_R50_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D25_R50_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D25_R50_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D25_R50_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D25_R50_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D25_R50_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D25_R50_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D25_R50_Pentropia.xlsx
+#04 ➕ Aumentando con D=25 | R=50 | P=proporcion
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 50 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D25_R50_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D25_R50_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D25_R50_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D25_R50_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D25_R50_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D25_R50_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D25_R50_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D25_R50_Pproporcion.xlsx
+#05 ➕ Aumentando con D=25 | R=75 | P=entropia
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 75 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D25_R75_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D25_R75_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D25_R75_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D25_R75_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D25_R75_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D25_R75_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D25_R75_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D25_R75_Pentropia.xlsx
+#06 ➕ Aumentando con D=25 | R=75 | P=proporcion
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 75 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D25_R75_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D25_R75_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D25_R75_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D25_R75_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D25_R75_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D25_R75_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D25_R75_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D25_R75_Pproporcion.xlsx
+#07 ➕ Aumentando con D=50 | R=25 | P=entropia
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 25 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D50_R25_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D50_R25_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D50_R25_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D50_R25_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D50_R25_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D50_R25_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D50_R25_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D50_R25_Pentropia.xlsx
+#08 ➕ Aumentando con D=50 | R=25 | P=proporcion
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 25 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D50_R25_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D50_R25_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D50_R25_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D50_R25_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D50_R25_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D50_R25_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D50_R25_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D50_R25_Pproporcion.xlsx
+#09 ➕ Aumentando con D=50 | R=50 | P=entropia
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 50 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D50_R50_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D50_R50_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D50_R50_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D50_R50_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D50_R50_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D50_R50_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D50_R50_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D50_R50_Pentropia.xlsx
+#10 ➕ Aumentando con D=50 | R=50 | P=proporcion
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 50 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D50_R50_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D50_R50_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D50_R50_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D50_R50_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D50_R50_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D50_R50_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D50_R50_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D50_R50_Pproporcion.xlsx
+#11 ➕ Aumentando con D=50 | R=75 | P=entropia
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 75 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D50_R75_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D50_R75_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D50_R75_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D50_R75_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D50_R75_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D50_R75_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D50_R75_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D50_R75_Pentropia.xlsx
+#12 ➕ Aumentando con D=50 | R=75 | P=proporcion
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 75 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D50_R75_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D50_R75_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D50_R75_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D50_R75_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D50_R75_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D50_R75_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D50_R75_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D50_R75_Pproporcion.xlsx
+#13 ➕ Aumentando con D=75 | R=25 | P=entropia
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 25 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D75_R25_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D75_R25_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D75_R25_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D75_R25_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D75_R25_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D75_R25_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D75_R25_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D75_R25_Pentropia.xlsx
+#14 ➕ Aumentando con D=75 | R=25 | P=proporcion
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 25 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D75_R25_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D75_R25_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D75_R25_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D75_R25_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D75_R25_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D75_R25_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D75_R25_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D75_R25_Pproporcion.xlsx
+#15 ➕ Aumentando con D=75 | R=50 | P=entropia
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 50 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D75_R50_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D75_R50_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D75_R50_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D75_R50_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D75_R50_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D75_R50_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D75_R50_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D75_R50_Pentropia.xlsx
+#16 ➕ Aumentando con D=75 | R=50 | P=proporcion
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 50 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D75_R50_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D75_R50_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D75_R50_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D75_R50_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D75_R50_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D75_R50_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D75_R50_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D75_R50_Pproporcion.xlsx
+#17 ➕ Aumentando con D=75 | R=75 | P=entropia
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 75 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D75_R75_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D75_R75_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D75_R75_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D75_R75_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D75_R75_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D75_R75_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D75_R75_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D75_R75_Pentropia.xlsx
+#18 ➕ Aumentando con D=75 | R=75 | P=proporcion
+📂 Cargando dataset: glass
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 75 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=14 pos_fp=3bf87d652831
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=885bfd0a591d
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] extra: n_min=23 pos_fp=beeef1755bcb
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(171,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(171,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_glass_D75_R75_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_glass_D75_R75_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_glass_D75_R75_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_glass_D75_R75_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D75_R75_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D75_R75_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_glass_D75_R75_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_glass_D75_R75_Pproporcion.xlsx
+
+📁 Dataset: heart
+#01 ➕ Aumentando con D=25 | R=25 | P=entropia
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 25 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D25_R25_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D25_R25_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D25_R25_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D25_R25_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D25_R25_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D25_R25_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D25_R25_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D25_R25_Pentropia.xlsx
+#02 ➕ Aumentando con D=25 | R=25 | P=proporcion
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 25 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D25_R25_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D25_R25_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D25_R25_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D25_R25_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D25_R25_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D25_R25_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D25_R25_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D25_R25_Pproporcion.xlsx
+#03 ➕ Aumentando con D=25 | R=50 | P=entropia
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 50 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D25_R50_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D25_R50_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D25_R50_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D25_R50_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D25_R50_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D25_R50_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D25_R50_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D25_R50_Pentropia.xlsx
+#04 ➕ Aumentando con D=25 | R=50 | P=proporcion
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 50 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D25_R50_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D25_R50_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D25_R50_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D25_R50_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D25_R50_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D25_R50_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D25_R50_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D25_R50_Pproporcion.xlsx
+#05 ➕ Aumentando con D=25 | R=75 | P=entropia
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 75 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D25_R75_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D25_R75_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D25_R75_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D25_R75_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D25_R75_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D25_R75_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D25_R75_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D25_R75_Pentropia.xlsx
+#06 ➕ Aumentando con D=25 | R=75 | P=proporcion
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 25 | Riesgo: 75 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D25_R75_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D25_R75_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D25_R75_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D25_R75_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D25_R75_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D25_R75_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D25_R75_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D25_R75_Pproporcion.xlsx
+#07 ➕ Aumentando con D=50 | R=25 | P=entropia
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 25 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D50_R25_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D50_R25_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D50_R25_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D50_R25_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D50_R25_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D50_R25_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D50_R25_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D50_R25_Pentropia.xlsx
+#08 ➕ Aumentando con D=50 | R=25 | P=proporcion
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 25 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D50_R25_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D50_R25_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D50_R25_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D50_R25_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D50_R25_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D50_R25_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D50_R25_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D50_R25_Pproporcion.xlsx
+#09 ➕ Aumentando con D=50 | R=50 | P=entropia
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 50 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D50_R50_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D50_R50_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D50_R50_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D50_R50_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D50_R50_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D50_R50_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D50_R50_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D50_R50_Pentropia.xlsx
+#10 ➕ Aumentando con D=50 | R=50 | P=proporcion
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 50 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D50_R50_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D50_R50_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D50_R50_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D50_R50_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D50_R50_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D50_R50_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D50_R50_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D50_R50_Pproporcion.xlsx
+#11 ➕ Aumentando con D=50 | R=75 | P=entropia
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 75 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D50_R75_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D50_R75_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D50_R75_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D50_R75_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D50_R75_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D50_R75_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D50_R75_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D50_R75_Pentropia.xlsx
+#12 ➕ Aumentando con D=50 | R=75 | P=proporcion
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 50 | Riesgo: 75 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D50_R75_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D50_R75_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D50_R75_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D50_R75_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D50_R75_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D50_R75_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D50_R75_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D50_R75_Pproporcion.xlsx
+#13 ➕ Aumentando con D=75 | R=25 | P=entropia
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 25 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D75_R25_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D75_R25_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D75_R25_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D75_R25_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D75_R25_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D75_R25_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D75_R25_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D75_R25_Pentropia.xlsx
+#14 ➕ Aumentando con D=75 | R=25 | P=proporcion
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 25 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D75_R25_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D75_R25_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D75_R25_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D75_R25_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D75_R25_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D75_R25_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D75_R25_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D75_R25_Pproporcion.xlsx
+#15 ➕ Aumentando con D=75 | R=50 | P=entropia
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 50 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D75_R50_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D75_R50_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D75_R50_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D75_R50_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D75_R50_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D75_R50_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D75_R50_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D75_R50_Pentropia.xlsx
+#16 ➕ Aumentando con D=75 | R=50 | P=proporcion
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 50 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D75_R50_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D75_R50_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D75_R50_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D75_R50_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D75_R50_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D75_R50_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D75_R50_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D75_R50_Pproporcion.xlsx
+#17 ➕ Aumentando con D=75 | R=75 | P=entropia
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 75 | Pureza: entropia
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D75_R75_Pentropia_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D75_R75_Pentropia_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D75_R75_Pentropia_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D75_R75_Pentropia_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D75_R75_Pentropia.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D75_R75_Pentropia.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D75_R75_Pentropia.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D75_R75_Pentropia.xlsx
+#18 ➕ Aumentando con D=75 | R=75 | P=proporcion
+📂 Cargando dataset: heart
+⚠️ Advertencia: columnas no numéricas detectadas: [11, 12]
+🧬 Aplicando PCSMOTE | Densidad: 75 | Riesgo: 75 | Pureza: proporcion
+[PCSMOTEGestorCache] extra: n_min=43 pos_fp=044aef817542
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=e621dbba1087
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=28 pos_fp=907b3d545ef8
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] extra: n_min=10 pos_fp=7b64f1f39610
+[PCSMOTEGestorCache] CACHE HIT
+[PCSMOTEGestorCache] usando cache=v1/npz  sigma_X.shape=(237,)
+[PCSMOTEGestorCache] CACHE: HIT  format=v1/npz  sigma_X.shape=(237,)
+💾 Guardando datasets aumentados...
+✅ Datasets guardados:
+- Train aumentado: ../datasets/datasets_aumentados/pcsmote_heart_D75_R75_Pproporcion_train.csv
+- Test escalado: ../datasets/datasets_aumentados/pcsmote_heart_D75_R75_Pproporcion_test.csv
+✅ Guardado exitoso:
+ - Train: ../datasets/datasets_aumentados/pcsmote_heart_D75_R75_Pproporcion_train.csv
+ - Test: ../datasets/datasets_aumentados/pcsmote_heart_D75_R75_Pproporcion_test.csv
+📁 Log por clase guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D75_R75_Pproporcion.csv
+📘 Log por muestra guardado en: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D75_R75_Pproporcion.xlsx
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_clase/log_pcsmote_heart_D75_R75_Pproporcion.csv
+📄 Log exportado: ../datasets/datasets_aumentados/logs/pcsmote/por_muestras/log_pcsmote_x_muestra_heart_D75_R75_Pproporcion.xlsx
