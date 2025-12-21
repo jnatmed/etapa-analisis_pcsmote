@@ -2,7 +2,7 @@ from esquemas_conocidos import ESQUEMAS_CONOCIDOS
 
 
 config_datasets = {
-    # ───────────────────────────── US CRIME ─────────────────────────────
+    # ─────────────────────────────1) US CRIME ─────────────────────────────
     "us_crime": {
         "path": "../datasets/US Crime/x10data.npz",
         "dataset_name": "us_crime",
@@ -43,7 +43,7 @@ config_datasets = {
             "escalado": {"tipo": "robust", "aplicar": True}
         }
     },
-    # ───────────────────────────── SHUTTLE ─────────────────────────────
+    # ─────────────────────────────2) SHUTTLE ─────────────────────────────
     "shuttle": {
         "path": "../datasets/statlog+shuttle/shuttle.csv",
         "dataset_name": "shuttle",
@@ -79,7 +79,7 @@ config_datasets = {
         }        
     },
 
-    # ───────────────────────────── WDBC ─────────────────────────────
+    # ─────────────────────────────3) WDBC ─────────────────────────────
     "wdbc": {
         "path": "../datasets/breast+cancer+wisconsin+original/wdbc.data",
         "dataset_name": "wdbc",
@@ -105,7 +105,7 @@ config_datasets = {
     }
     },
 
-    # ───────────────────────────── GLASS ─────────────────────────────
+    # ─────────────────────────────4) GLASS ─────────────────────────────
     "glass": {
         "path": "../datasets/glass+identification/glass.data",
         "dataset_name": "glass",
@@ -138,7 +138,7 @@ config_datasets = {
         }        
     },
 
-    # ───────────────────────────── HEART ─────────────────────────────
+    # ─────────────────────────────5) HEART ─────────────────────────────
     "heart": {
         "path": "../datasets/heart+disease/processed.cleveland.data",
         "dataset_name": "heart",
@@ -166,36 +166,7 @@ config_datasets = {
         }
     },
 
-    # ───────────────────────────── IRIS ─────────────────────────────
-    "iris": {
-        "path": "../datasets/iris/iris.data",
-        "dataset_name": "iris",
-        "clase_minoria": None,
-        "col_target": "class",
-        "col_features": ESQUEMAS_CONOCIDOS["iris"][:-1],
-        "sep": ",",
-        "header": None,
-        "binarizar": False,
-        "tipo": "tabular",
-        "esquema": ESQUEMAS_CONOCIDOS["iris"],
-        "limpieza_outliers": {
-            "activar": True,
-            "estrategia": "progresiva",
-            "niveles": {
-                # Iris está limpio; solo salvaguardas triviales
-                "nivel_1": {"tipo": "rango_fisico",
-                            "criterios": {"sepal_length": {"min": 0},
-                                          "sepal_width":  {"min": 0},
-                                          "petal_length": {"min": 0},
-                                          "petal_width":  {"min": 0}}},
-                "nivel_2": {"tipo": "iqr_por_clase", "activar": True, "solo_marcar": True},
-                "nivel_3": {"tipo": "isolation_forest", "activar": False}
-            },
-            "comentario": "No borrar nada salvo valores negativos/erróneos. IQR por clase solo para diagnóstico."
-        }
-    },
-
-    # ───────────────────────────── ECOLI ─────────────────────────────
+    # ─────────────────────────────6) ECOLI ─────────────────────────────
     "ecoli": {
         "path": "../datasets/ecoli/ecoli.data",
         "dataset_name": "ecoli",
@@ -229,7 +200,7 @@ config_datasets = {
         }
     },
 
-    # ───────────────────────────── PREDICT_FAULTS ─────────────────────────────
+    # ─────────────────────────────7) PREDICT_FAULTS ─────────────────────────────
     "predict_faults": {
         "path": "../datasets/predict_faults/predictive_maintenance.csv",
         "dataset_name": "predict_faults",
@@ -271,7 +242,7 @@ config_datasets = {
         }
     },
 
-    # ───────────────────────────── GEAR VIBRATION ─────────────────────────────
+    # ─────────────────────────────8) GEAR VIBRATION ─────────────────────────────
     "gear_vibration": {
         "path": "../datasets/gear_vibration/gear_vibration_operativo.csv",
         "dataset_name": "gear_vibration",
@@ -317,6 +288,8 @@ config_datasets = {
     },
 
         # ───────────────────────────── TELCO CUSTOMER CHURN ─────────────────────────────
+
+    # ─────────────────────────────9) TELCO CHURN ─────────────────────────────
     "telco_churn": {
         "path": "../datasets/telco_costumer_churn/telco_churn_analizable.csv",
         "dataset_name": "telco_costumer_churn",

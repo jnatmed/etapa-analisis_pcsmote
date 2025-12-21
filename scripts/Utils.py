@@ -312,3 +312,144 @@ class Utils:
             df_final = df_nuevo
 
         df_final.to_excel(ruta_excel, index=False)
+
+
+    # ----------------------------------------------------------------------
+    # NUEVO: limpiar logs en memoria
+    # ----------------------------------------------------------------------
+    def limpiar_logs_por_muestra(self):
+        """
+        Vacía self.logs_por_muestra.
+        Útil si querés liberar memoria después de volcar un bloque.
+        """
+        self.logs_por_muestra = []
+
+
+    # ----------------------------------------------------------------------
+    # NUEVO: exportar logs por muestra a CSV (append REAL, rápido)
+    # ----------------------------------------------------------------------
+    def exportar_log_muestras_csv(self, ruta_csv, append=True, sep=",", encoding="utf-8"):
+        """
+        Exporta self.logs_por_muestra a un archivo CSV.
+
+        Parámetros:
+        - ruta_csv: str o Path. Ruta completa al .csv
+        - append:
+            - True: agrega al final (modo append) sin re-leer el archivo.
+            - False: sobrescribe (modo write).
+        - sep: separador CSV (default ',')
+        - encoding: encoding del archivo
+
+        Notas:
+        - Si el archivo no existe y append=True, escribe header.
+        - Si logs_por_muestra está vacío, no hace nada.
+        """
+        if not self.logs_por_muestra:
+            return
+
+        ruta_csv = Path(ruta_csv)
+        ruta_csv.parent.mkdir(parents=True, exist_ok=True)
+
+        df_nuevo = pd.DataFrame(self.logs_por_muestra)
+
+        existe = ruta_csv.exists()
+        modo = "a" if append else "w"
+        escribir_header = (not existe) or (not append)
+
+        df_nuevo.to_csv(
+            ruta_csv,
+            mode=modo,
+            index=False,
+            header=escribir_header,
+            sep=sep,
+            encoding=encoding,
+        )
+
+
+    # ----------------------------------------------------------------------
+    # NUEVO: exportar logs por muestra a CSV.GZ (compacto)
+    # ----------------------------------------------------------------------
+    def exportar_log_muestras_csv_gz(self, ruta_csv_gz, append=True, sep=",", encoding="utf-8"):
+        """
+        Igual que exportar_log_muestras_csv pero comprimido con gzip (.csv.gz).
+
+        Importante:
+        - Append en gzip funciona, pero cada append agrega un nuevo "member" gzip.
+          Pandas puede leerlo igual (read_csv(compression="gzip")), pero el archivo
+          no queda como un único stream "limpio". Aun así, para logs va perfecto.
+
+        Si preferís cero sorpresas, usá CSV normal y comprimís al final.
+        """
+        if not self.logs_por_muestra:
+            return
+
+        ruta_csv_gz = Path(ruta_csv_gz)
+        ruta_csv_gz.parent.mkdir(parents=True, exist_ok=True)
+
+        df_nuevo = pd.DataFrame(self.logs_por_muestra)
+
+        existe = ruta_csv_gz.exists()
+        modo = "a" if append else "w"
+        escribir_header = (not existe) or (not append)
+
+        df_nuevo.to_csv(
+            ruta_csv_gz,
+            mode=modo,
+            index=False,
+            header=escribir_header,
+            sep=sep,
+            encoding=encoding,
+            compression="gzip",
+        )
+
+
+    # ----------------------------------------------------------------------
+    # NUEVO: convertir CSV -> XLSX al final (una sola vez)
+    # ----------------------------------------------------------------------
+    def convertir_csv_a_excel(self, ruta_csv, ruta_excel, sep=",", encoding="utf-8"):
+        """
+        Lee un CSV y lo exporta a Excel (.xlsx).
+        Ideal para usar al final del proceso.
+
+        Parámetros:
+        - ruta_csv: str o Path al CSV
+        - ruta_excel: str o Path al XLSX
+        """
+        ruta_csv = Path(ruta_csv)
+        ruta_excel = Path(ruta_excel)
+        ruta_excel.parent.mkdir(parents=True, exist_ok=True)
+
+        if not ruta_csv.exists():
+            return
+
+        df = pd.read_csv(ruta_csv, sep=sep, encoding=encoding)
+        df.to_excel(ruta_excel, index=False)
+
+    # ----------------------------------------------------------------------
+    # NUEVO: borrar archivo de log si existe
+    # ----------------------------------------------------------------------
+    def borrar_archivo_log(self, ruta):
+        """
+        Elimina un archivo de log si existe.
+
+        Parámetros
+        ----------
+        ruta : str o Path
+            Ruta completa al archivo (csv, csv.gz, xlsx, etc.)
+
+        Retorna
+        -------
+        bool
+            True  -> el archivo existía y fue borrado
+            False -> el archivo no existía
+        """
+        ruta = Path(ruta)
+
+        if ruta.exists():
+            try:
+                ruta.unlink()
+                return True
+            except Exception as e:
+                raise RuntimeError(f"No se pudo borrar el archivo de log: {ruta}") from e
+
+        return False

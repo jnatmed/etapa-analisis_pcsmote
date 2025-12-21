@@ -81,10 +81,13 @@ class PCSMOTE(Utils):
 
         self.percentil_dist_densidad = float(percentil_dist_densidad)
         self.percentil_dist_riesgo = float(percentil_dist_riesgo)
-        self.percentil_entropia = float(percentil_entropia)
 
-        self.umbral_pureza = float(umbral_pureza)
-        self.umbral_riesgo = float(umbral_riesgo) 
+        # pueden ser None según criterio_pureza
+        self.percentil_entropia = None if percentil_entropia is None else float(percentil_entropia)
+        self.umbral_pureza = None if umbral_pureza is None else float(umbral_pureza)
+
+        self.umbral_riesgo = float(umbral_riesgo)
+
 
         self.entropias = None
         self.densidades = None
@@ -92,7 +95,7 @@ class PCSMOTE(Utils):
         self.mascara_vecino_minoritario = None
         self.mascara_entropia_baja = None
         self.mascara_pureza = None  
-        self.umbral_densidad = umbral_densidad
+        self.umbral_densidad = float(umbral_densidad)
 
         # --- acumuladores globales (todas las clases OVA) ---
         self.mascara_entropia_baja_global = None
@@ -153,7 +156,8 @@ class PCSMOTE(Utils):
         else:
             valor_upp = int(round(self.umbral_pureza * 100))
             tag_tipo_pureza = f"Upp{valor_upp:03d}"
-
+        
+        tag_iso = "I0"
         if grado_iso is not None:
             tag_iso = f"I{int(grado_iso)}"
 
