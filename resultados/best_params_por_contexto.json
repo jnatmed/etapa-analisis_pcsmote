@@ -1,94 +1,29 @@
 {
-  "('ecoli', 'RandomForest', '0')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "sqrt"
-  },
-  "('ecoli', 'RandomForest', '1')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "sqrt"
-  },
-  "('ecoli', 'RandomForest', '3')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "sqrt"
-  },
-  "('glass', 'RandomForest', '0')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "sqrt"
-  },
-  "('glass', 'RandomForest', '1')": {
-    "classifier__n_estimators": 300,
-    "classifier__max_features": "sqrt"
-  },
-  "('glass', 'RandomForest', '3')": {
-    "classifier__n_estimators": 300,
-    "classifier__max_features": "sqrt"
-  },
-  "('heart', 'RandomForest', '0')": {
-    "classifier__n_estimators": 300,
-    "classifier__max_features": "sqrt"
-  },
-  "('heart', 'RandomForest', '1')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "sqrt"
-  },
-  "('heart', 'RandomForest', '3')": {
-    "classifier__n_estimators": 300,
-    "classifier__max_features": "sqrt"
-  },
   "('predict_faults', 'RandomForest', '0')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "sqrt"
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.5085546671859844,
+    "cv_balanced_accuracy": 0.4717119721035914,
+    "cv_recall_macro": 0.4717119721035914
   },
   "('predict_faults', 'RandomForest', '1')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "sqrt"
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.5165458464768783,
+    "cv_balanced_accuracy": 0.47717748351594647,
+    "cv_recall_macro": 0.47717748351594647
   },
   "('predict_faults', 'RandomForest', '3')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "sqrt"
-  },
-  "('telco_churn', 'RandomForest', '0')": {
-    "classifier__n_estimators": 300,
-    "classifier__max_features": "sqrt"
-  },
-  "('telco_churn', 'RandomForest', '10')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "log2"
-  },
-  "('telco_churn', 'RandomForest', '1')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "sqrt"
-  },
-  "('telco_churn', 'RandomForest', '3')": {
-    "classifier__n_estimators": 300,
-    "classifier__max_features": "sqrt"
-  },
-  "('telco_churn', 'RandomForest', '5')": {
-    "classifier__n_estimators": 300,
-    "classifier__max_features": "sqrt"
-  },
-  "('us_crime', 'RandomForest', '0')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "sqrt"
-  },
-  "('us_crime', 'RandomForest', '1')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "sqrt"
-  },
-  "('us_crime', 'RandomForest', '3')": {
-    "classifier__n_estimators": 300,
-    "classifier__max_features": "sqrt"
-  },
-  "('wdbc', 'RandomForest', '0')": {
-    "classifier__n_estimators": 150,
-    "classifier__max_features": "log2"
-  },
-  "('wdbc', 'RandomForest', '1')": {
-    "classifier__n_estimators": 300,
-    "classifier__max_features": "sqrt"
-  },
-  "('wdbc', 'RandomForest', '3')": {
-    "classifier__n_estimators": 300,
-    "classifier__max_features": "sqrt"
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.5350000210249145,
+    "cv_balanced_accuracy": 0.4942469843596836,
+    "cv_recall_macro": 0.4942469843596836
   }
 }

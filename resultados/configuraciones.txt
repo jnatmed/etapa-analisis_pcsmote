@@ -1,0 +1,91 @@
+configuracion que ya me permite competir en:
+- glass
+- heart
+- wdbc
+- ecoli
+# -------------------------
+# DENSIDAD (radio por percentil) y umbral de densidad
+# -------------------------
+PERCENTILES_RADIO_DENSIDAD = [70, 85]     # PRD
+UMBRALES_DENSIDAD = [0.50, 0.60]          # UD
+
+# -------------------------
+# RIESGO (radio por percentil) y umbral de riesgo
+# -------------------------
+PERCENTILES_RADIO_RIESGO = [30, 40, 50]   # PR
+UMBRALES_RIESGO = [0.40, 0.50]            # UR
+
+# -------------------------
+# PUREZA
+# -------------------------
+# principal: proporción
+UMBRALES_PROPORCION = [0.60, 0.70]        # Upp
+
+# secundaria: entropía (solo para contraste metodológico)
+PERCENTILES_ENTROPIA = [70]               # PE
+
+# -------------------------
+# Isolation
+# -------------------------
+PERCENTILES_ISOLATION = [0, 1, 3]  
+
+configuracion para 
+us_crime
+
+# -------------------------
+# DENSIDAD (radio por percentil) y umbral de densidad
+# -------------------------
+PERCENTILES_RADIO_DENSIDAD = [85, 90]          # PRD
+UMBRALES_DENSIDAD = [0.35, 0.40, 0.45]         # UD
+
+# -------------------------
+# RIESGO (radio por percentil) y umbral de riesgo
+# -------------------------
+PERCENTILES_RADIO_RIESGO = [45, 55, 65]        # PR
+UMBRALES_RIESGO = [0.50, 0.60]                 # UR
+
+# -------------------------
+# PUREZA
+# -------------------------
+# proporción (secundaria / apoyo)
+# Bajamos el piso para no matar semillas en alta dimensión
+UMBRALES_PROPORCION = [0.50, 0.60]             # Upp
+
+# entropía (principal)
+PERCENTILES_ENTROPIA = [60, 70, 80, 90]        # PE
+
+# -------------------------
+# Isolation
+# -------------------------
+# Mantener bajo para no destruir vecindarios útiles
+PERCENTILES_ISOLATION = [0, 1, 3]
+
+configuracion para predict_faults
+
+# -------------------------
+# DENSIDAD (radio por percentil) y umbral de densidad
+# -------------------------
+PERCENTILES_RADIO_DENSIDAD = [85]          # PRD
+UMBRALES_DENSIDAD = [0.50, 0.60]         # UD
+
+# -------------------------
+# RIESGO (radio por percentil) y umbral de riesgo
+# -------------------------
+PERCENTILES_RADIO_RIESGO = [40,50]        # PR
+UMBRALES_RIESGO = [0.45, 0.55]                 # UR
+
+# -------------------------
+# PUREZA
+# -------------------------
+# proporción (secundaria / apoyo)
+# Bajamos el piso para no matar semillas en alta dimensión
+UMBRALES_PROPORCION = [0.45, 0.55]             # Upp
+
+# entropía (principal)
+PERCENTILES_ENTROPIA = [60, 70, 80, 90]        # PE
+
+# -------------------------
+# Isolation
+# -------------------------
+# Mantener bajo para no destruir vecindarios útiles
+PERCENTILES_ISOLATION = [0, 1, 3]
