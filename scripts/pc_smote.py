@@ -451,7 +451,7 @@ class PCSMOTE(Utils):
 
         self.riesgos = riesgos
 
-        UMBRAL_DOMINANCIA_MINORITARIA = 0.5
+        UMBRAL_DOMINANCIA_MINORITARIA = 0.4
         # ----- máscaras -----
         if self.criterio_pureza == "proporcion":
             # Igual que antes: pureza = proporción de minoritarios >= umbral
