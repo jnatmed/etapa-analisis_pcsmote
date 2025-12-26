@@ -1,4 +1,85 @@
 {
+  "('ecoli', 'RandomForest', '0')": {
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.7012824798334791,
+    "cv_balanced_accuracy": 0.7099611137654616,
+    "cv_recall_macro": 0.6943361137654616
+  },
+  "('ecoli', 'RandomForest', '1')": {
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.7104159316931057,
+    "cv_balanced_accuracy": 0.7204568981742894,
+    "cv_recall_macro": 0.7040943205345379
+  },
+  "('ecoli', 'RandomForest', '3')": {
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.7048266015846494,
+    "cv_balanced_accuracy": 0.7207972582972582,
+    "cv_recall_macro": 0.7068984487734487
+  },
+  "('glass', 'RandomForest', '0')": {
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.6739070752114229,
+    "cv_balanced_accuracy": 0.6774203574203574,
+    "cv_recall_macro": 0.6774203574203574
+  },
+  "('glass', 'RandomForest', '1')": {
+    "mejores_params": {
+      "classifier__n_estimators": 300,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.7385824266983687,
+    "cv_balanced_accuracy": 0.7394444444444445,
+    "cv_recall_macro": 0.7394444444444445
+  },
+  "('glass', 'RandomForest', '3')": {
+    "mejores_params": {
+      "classifier__n_estimators": 300,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.732484631677614,
+    "cv_balanced_accuracy": 0.7410101010101011,
+    "cv_recall_macro": 0.7410101010101011
+  },
+  "('heart', 'RandomForest', '0')": {
+    "mejores_params": {
+      "classifier__n_estimators": 300,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.30209098467064,
+    "cv_balanced_accuracy": 0.30888319088319094,
+    "cv_recall_macro": 0.30888319088319094
+  },
+  "('heart', 'RandomForest', '1')": {
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.271574399884911,
+    "cv_balanced_accuracy": 0.2826905982905983,
+    "cv_recall_macro": 0.2826905982905983
+  },
+  "('heart', 'RandomForest', '3')": {
+    "mejores_params": {
+      "classifier__n_estimators": 300,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.2854623225329541,
+    "cv_balanced_accuracy": 0.29484615384615387,
+    "cv_recall_macro": 0.29484615384615387
+  },
   "('predict_faults', 'RandomForest', '0')": {
     "mejores_params": {
       "classifier__n_estimators": 150,
@@ -25,5 +106,104 @@
     "cv_f1_macro": 0.5350000210249145,
     "cv_balanced_accuracy": 0.4942469843596836,
     "cv_recall_macro": 0.4942469843596836
+  },
+  "('telco_churn', 'RandomForest', '0')": {
+    "mejores_params": {
+      "classifier__n_estimators": 300,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.71115757594759,
+    "cv_balanced_accuracy": 0.6989906118159102,
+    "cv_recall_macro": 0.6989906118159102
+  },
+  "('telco_churn', 'RandomForest', '10')": {
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "log2"
+    },
+    "cv_f1_macro": 0.7390474643162076,
+    "cv_balanced_accuracy": 0.7297557446171503,
+    "cv_recall_macro": 0.7297557446171503
+  },
+  "('telco_churn', 'RandomForest', '1')": {
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.7154320258046513,
+    "cv_balanced_accuracy": 0.7023376760571882,
+    "cv_recall_macro": 0.7023376760571882
+  },
+  "('telco_churn', 'RandomForest', '3')": {
+    "mejores_params": {
+      "classifier__n_estimators": 300,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.7241468810873022,
+    "cv_balanced_accuracy": 0.712231602682648,
+    "cv_recall_macro": 0.712231602682648
+  },
+  "('telco_churn', 'RandomForest', '5')": {
+    "mejores_params": {
+      "classifier__n_estimators": 300,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.724054398261621,
+    "cv_balanced_accuracy": 0.7127611157112124,
+    "cv_recall_macro": 0.7127611157112124
+  },
+  "('us_crime', 'RandomForest', '0')": {
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.7133363542616962,
+    "cv_balanced_accuracy": 0.6619209039548022,
+    "cv_recall_macro": 0.6619209039548022
+  },
+  "('us_crime', 'RandomForest', '1')": {
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.7459922539495089,
+    "cv_balanced_accuracy": 0.6939572165971809,
+    "cv_recall_macro": 0.6939572165971809
+  },
+  "('us_crime', 'RandomForest', '3')": {
+    "mejores_params": {
+      "classifier__n_estimators": 300,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.7492074703191335,
+    "cv_balanced_accuracy": 0.694354920441877,
+    "cv_recall_macro": 0.694354920441877
+  },
+  "('wdbc', 'RandomForest', '0')": {
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "log2"
+    },
+    "cv_f1_macro": 0.9599673571336063,
+    "cv_balanced_accuracy": 0.9594943240454075,
+    "cv_recall_macro": 0.9594943240454075
+  },
+  "('wdbc', 'RandomForest', '1')": {
+    "mejores_params": {
+      "classifier__n_estimators": 300,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.9570400941270751,
+    "cv_balanced_accuracy": 0.9550363207483951,
+    "cv_recall_macro": 0.9550363207483951
+  },
+  "('wdbc', 'RandomForest', '3')": {
+    "mejores_params": {
+      "classifier__n_estimators": 300,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.9560568916037298,
+    "cv_balanced_accuracy": 0.9537824675324676,
+    "cv_recall_macro": 0.9537824675324676
   }
 }
