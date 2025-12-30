@@ -1,0 +1,143 @@
+
+🔍 Analizando dataset: US_CRIME
+🎯 Valores únicos del target: [-1, 1]
+📊 Distribución de clases:
+   - -1: 1844 (92.48%)
+   - 1: 150 (7.52%)
+✅ Clase minoritaria real: 1
+⚠️ Clase configurada como minoritaria: 1
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=1  | consistencia=0.9208 | kNN_BAC=0.6473±0.0563 | kNN_F1m=0.6670±0.0621 | Jaccard=0.9273±0.2597 | margen=0.0000 (validos=0/1994)
+   k=3  | consistencia=0.9162 | kNN_BAC=0.6538±0.0440 | kNN_F1m=0.6909±0.0530 | Jaccard=0.9051±0.1973 | margen=1.0071 (validos=228/1994)
+   k=5  | consistencia=0.9142 | kNN_BAC=0.6304±0.0473 | kNN_F1m=0.6737±0.0608 | Jaccard=0.9042±0.1549 | margen=1.0110 (validos=336/1994)
+   k=7  | consistencia=0.9128 | kNN_BAC=0.6243±0.0447 | kNN_F1m=0.6675±0.0565 | Jaccard=0.9100±0.1290 | margen=1.0099 (validos=413/1994)
+
+🔍 Analizando dataset: SHUTTLE
+🎯 Valores únicos del target: [1, 4, 5, 3, 2, 7, 6]
+📊 Distribución de clases:
+   - 1: 45586 (78.6%)
+   - 4: 8903 (15.35%)
+   - 5: 3267 (5.63%)
+   - 3: 171 (0.29%)
+   - 2: 50 (0.09%)
+   - 7: 13 (0.02%)
+   - 6: 10 (0.02%)
+✅ Clase minoritaria real: 6
+⚠️ Clase configurada como minoritaria: 6
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=1  | consistencia=0.9983 | kNN_BAC=0.9112±0.0165 | kNN_F1m=0.9057±0.0075 | Jaccard=0.7047±0.4562 | margen=0.0000 (validos=0/58000)
+   k=3  | consistencia=0.9979 | kNN_BAC=0.9084±0.0468 | kNN_F1m=0.9036±0.0479 | Jaccard=0.8487±0.2365 | margen=1.4330 (validos=180/58000)
+   k=5  | consistencia=0.9974 | kNN_BAC=0.9017±0.0559 | kNN_F1m=0.8782±0.0443 | Jaccard=0.8616±0.1829 | margen=1.4216 (validos=325/58000)
+   k=7  | consistencia=0.9972 | kNN_BAC=0.8601±0.0460 | kNN_F1m=0.8491±0.0396 | Jaccard=0.8837±0.1490 | margen=1.3491 (validos=381/58000)
+
+🔍 Analizando dataset: WDBC
+🎯 Valores únicos del target: ['B', 'M']
+📊 Distribución de clases:
+   - B: 357 (62.74%)
+   - M: 212 (37.26%)
+✅ Clase minoritaria real: M
+⚠️ Clase configurada como minoritaria: M
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=1  | consistencia=0.9156 | kNN_BAC=0.9056±0.0191 | kNN_F1m=0.9074±0.0152 | Jaccard=0.9982±0.0419 | margen=0.0000 (validos=0/569)
+   k=3  | consistencia=0.9174 | kNN_BAC=0.9198±0.0325 | kNN_F1m=0.9222±0.0288 | Jaccard=0.9991±0.0210 | margen=1.0397 (validos=65/569)
+   k=5  | consistencia=0.9114 | kNN_BAC=0.9263±0.0293 | kNN_F1m=0.9296±0.0245 | Jaccard=0.9982±0.0242 | margen=1.0731 (validos=102/569)
+   k=7  | consistencia=0.9066 | kNN_BAC=0.9169±0.0319 | kNN_F1m=0.9215±0.0250 | Jaccard=0.9982±0.0209 | margen=1.1008 (validos=126/569)
+
+🔍 Analizando dataset: GLASS
+🎯 Valores únicos del target: [2, 1, 7, 3, 5, 6]
+📊 Distribución de clases:
+   - 2: 76 (35.51%)
+   - 1: 70 (32.71%)
+   - 7: 29 (13.55%)
+   - 3: 17 (7.94%)
+   - 5: 13 (6.07%)
+   - 6: 9 (4.21%)
+✅ Clase minoritaria real: 6
+⚠️ Clase configurada como minoritaria: 6
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=1  | consistencia=0.7336 | kNN_BAC=0.6948±0.0751 | kNN_F1m=0.6731±0.0743 | Jaccard=0.8972±0.3044 | margen=0.0000 (validos=0/214)
+   k=3  | consistencia=0.6729 | kNN_BAC=0.5839±0.1077 | kNN_F1m=0.5787±0.1008 | Jaccard=0.9047±0.2053 | margen=9160710.6169 (validos=79/214)
+   k=5  | consistencia=0.6299 | kNN_BAC=0.5067±0.0839 | kNN_F1m=0.5016±0.0987 | Jaccard=0.9261±0.1433 | margen=1.1640 (validos=131/214)
+   k=7  | consistencia=0.6055 | kNN_BAC=0.4732±0.0487 | kNN_F1m=0.4637±0.0651 | Jaccard=0.9335±0.1195 | margen=1.1636 (validos=153/214)
+
+🔍 Analizando dataset: HEART
+🎯 Valores únicos del target: [0, 1, 2, 3, 4]
+📊 Distribución de clases:
+   - 0: 164 (54.13%)
+   - 1: 55 (18.15%)
+   - 2: 36 (11.88%)
+   - 3: 35 (11.55%)
+   - 4: 13 (4.29%)
+✅ Clase minoritaria real: 4
+⚠️ Clase configurada como minoritaria: 4
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=1  | consistencia=0.4191 | kNN_BAC=0.2414±0.0307 | kNN_F1m=0.2385±0.0320 | Jaccard=0.9967±0.0574 | margen=0.0000 (validos=0/303)
+   k=3  | consistencia=0.4037 | kNN_BAC=0.2045±0.0239 | kNN_F1m=0.1853±0.0393 | Jaccard=1.0000±0.0000 | margen=1.0328 (validos=160/303)
+   k=5  | consistencia=0.4020 | kNN_BAC=0.2051±0.0211 | kNN_F1m=0.1813±0.0283 | Jaccard=0.9956±0.0381 | margen=1.0223 (validos=206/303)
+   k=7  | consistencia=0.4064 | kNN_BAC=0.2159±0.0283 | kNN_F1m=0.1908±0.0373 | Jaccard=0.9967±0.0286 | margen=1.0130 (validos=238/303)
+
+🔍 Analizando dataset: ECOLI
+🎯 Valores únicos del target: ['cp', 'im', 'pp', 'imU', 'om', 'omL', 'imS', 'imL']
+📊 Distribución de clases:
+   - cp: 143 (42.56%)
+   - im: 77 (22.92%)
+   - pp: 52 (15.48%)
+   - imU: 35 (10.42%)
+   - om: 20 (5.95%)
+   - omL: 5 (1.49%)
+   - imS: 2 (0.6%)
+   - imL: 2 (0.6%)
+✅ Clase minoritaria real: imS
+⚠️ Clase configurada como minoritaria: imL
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=1  | consistencia=0.8125 | kNN_BAC=0.7308±0.0964 | kNN_F1m=0.6681±0.1240 | Jaccard=0.6964±0.4605 | margen=0.0000 (validos=0/336)
+   k=3  | consistencia=0.8026 | kNN_BAC=0.7432±0.0914 | kNN_F1m=0.7135±0.1218 | Jaccard=0.7113±0.2812 | margen=1.0428 (validos=92/336)
+   k=5  | consistencia=0.7958 | kNN_BAC=0.7540±0.0859 | kNN_F1m=0.7365±0.0965 | Jaccard=0.7357±0.2114 | margen=1.0680 (validos=134/336)
+   k=7  | consistencia=0.7925 | kNN_BAC=0.7642±0.0839 | kNN_F1m=0.7485±0.0928 | Jaccard=0.7562±0.1752 | margen=1.0610 (validos=165/336)
+
+🔍 Analizando dataset: PREDICT_FAULTS
+🎯 Valores únicos del target: ['No Failure', 'Heat Dissipation Failure', 'Power Failure', 'Overstrain Failure', 'Tool Wear Failure', 'Random Failures']
+📊 Distribución de clases:
+   - No Failure: 9652 (96.52%)
+   - Heat Dissipation Failure: 112 (1.12%)
+   - Power Failure: 95 (0.95%)
+   - Overstrain Failure: 78 (0.78%)
+   - Tool Wear Failure: 45 (0.45%)
+   - Random Failures: 18 (0.18%)
+✅ Clase minoritaria real: Random Failures
+⚠️ Clase configurada como minoritaria: Random Failures
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=1  | consistencia=0.9541 | kNN_BAC=0.3009±0.0288 | kNN_F1m=0.3187±0.0333 | Jaccard=0.9934±0.0810 | margen=0.0000 (validos=0/10000)
+   k=3  | consistencia=0.9529 | kNN_BAC=0.2646±0.0183 | kNN_F1m=0.2950±0.0202 | Jaccard=0.9932±0.0577 | margen=1.0682 (validos=618/10000)
+   k=5  | consistencia=0.9519 | kNN_BAC=0.2484±0.0333 | kNN_F1m=0.2789±0.0399 | Jaccard=0.9945±0.0426 | margen=1.0429 (validos=939/10000)
+   k=7  | consistencia=0.9520 | kNN_BAC=0.2506±0.0212 | kNN_F1m=0.2846±0.0269 | Jaccard=0.9940±0.0383 | margen=1.0316 (validos=1165/10000)
+
+🔍 Analizando dataset: GEAR_VIBRATION
+🎯 Valores únicos del target: ['no_fault', 'eccentricity', 'missing_tooth', 'root_crack', 'surface_fault', 'tooth_chipped_fault']
+📊 Distribución de clases:
+   - no_fault: 30 (33.33%)
+   - eccentricity: 12 (13.33%)
+   - missing_tooth: 12 (13.33%)
+   - root_crack: 12 (13.33%)
+   - surface_fault: 12 (13.33%)
+   - tooth_chipped_fault: 12 (13.33%)
+✅ Clase minoritaria real: eccentricity
+⚠️ Clase configurada como minoritaria: root_crack
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=1  | consistencia=0.6444 | kNN_BAC=0.6167±0.1514 | kNN_F1m=0.5906±0.1378 | Jaccard=0.4778±0.5023 | margen=0.0000 (validos=0/90)
+   k=3  | consistencia=0.4370 | kNN_BAC=0.3333±0.1162 | kNN_F1m=0.3054±0.1052 | Jaccard=0.6489±0.3106 | margen=3.8699 (validos=63/90)
+   k=5  | consistencia=0.3444 | kNN_BAC=0.2111±0.1312 | kNN_F1m=0.1709±0.1195 | Jaccard=0.7902±0.2203 | margen=4.1463 (validos=82/90)
+   k=7  | consistencia=0.2746 | kNN_BAC=0.1278±0.0421 | kNN_F1m=0.0776±0.0234 | Jaccard=0.8401±0.1559 | margen=4.8602 (validos=82/90)
+
+🔍 Analizando dataset: TELCO_CHURN
+🎯 Valores únicos del target: ['no-churn', 'churn']
+📊 Distribución de clases:
+   - no-churn: 5174 (73.46%)
+   - churn: 1869 (26.54%)
+✅ Clase minoritaria real: churn
+⚠️ Clase configurada como minoritaria: churn
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=1  | consistencia=0.7163 | kNN_BAC=0.6380±0.0159 | kNN_F1m=0.6369±0.0152 | Jaccard=0.9837±0.1267 | margen=0.0000 (validos=0/7043)
+   k=3  | consistencia=0.7141 | kNN_BAC=0.6554±0.0092 | kNN_F1m=0.6627±0.0092 | Jaccard=0.9870±0.0829 | margen=137703.6756 (validos=3081/7043)
+   k=5  | consistencia=0.7136 | kNN_BAC=0.6636±0.0170 | kNN_F1m=0.6746±0.0183 | Jaccard=0.9893±0.0631 | margen=85939.9896 (validos=4114/7043)
+   k=7  | consistencia=0.7127 | kNN_BAC=0.6691±0.0100 | kNN_F1m=0.6817±0.0108 | Jaccard=0.9906±0.0515 | margen=1.0595 (validos=4706/7043)
