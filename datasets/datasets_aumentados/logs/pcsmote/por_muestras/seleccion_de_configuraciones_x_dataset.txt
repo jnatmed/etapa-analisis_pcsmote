@@ -1,0 +1,23 @@
+predict_fault
+"PRD85_PR50_CPprop_UD050_UR055_Upp045_I0", (esta ok)
+ecoli
+"PRD70_PR40_CPent_UD060_UR045_PE60_I0" (cerca)
+"PRD70_PR40_CPent_UD060_UR045_PE70_I0" (el que deberia ser)
+telco_churn
+"PRD85_PR40_CPent_UD050_UR045_PE60_I0" (cerca)
+"PRD85_PR40_CPent_UD060_UR045_PE70_I0" (el que deberia ser)
+us_crime
+"PRD85_PR40_CPent_UD045_UR045_PE80_I0" (no esta tengo que recrear de nuevo ese log)
+wdbc
+"PRD70_PR30_CPprop_UD050_UR040_Upp060_I0" (no esta tengo que recrear de nuevo ese log)
+heart
+"PRD85_PR50_CPprop_UD050_UR055_Upp045_I0" (esta ok)
+glass
+"PRD85_PR30_CPprop_UD060_UR040_Upp060_I0" (esta ok)
+
+
+
+
+
+
+
