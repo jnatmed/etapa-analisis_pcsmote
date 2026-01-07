@@ -1,0 +1,4126 @@
+
+====================================================================================================
+Dataset: ecoli
+====================================================================================================
+
+PRD70_PR30_CPprop_UD050_UR040_Upp6000_I0
+----------------------------------------
+im     SV=0   SG=0    SG/SV=0.00
+imU    SV=0   SG=0    SG/SV=0.00
+om     SV=0   SG=0    SG/SV=0.00
+pp     SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 0
+  ▶ Cobertura de clases  : 0/4
+  ⚠ Configuración inválida (SG = 0)
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia semillas: sin semillas válidas
+  ▶ Comparación SV vs no-SV: datos insuficientes (uno de los grupos vacío)
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPent_UD060_UR045_PE70_I0
+------------------------------------
+im     SV=24  SG=53   SG/SV=2.21
+imU    SV=11  SG=86   SG/SV=7.82
+om     SV=4   SG=98   SG/SV=24.50
+pp     SV=16  SG=73   SG/SV=4.56
+
+  ▶ Total sintéticos (SG): 310
+  ▶ Cobertura de clases  : 4/4
+  ▶ Entropía (solo SV=1):
+     n=55 | media=0.4925 | std=0.3729 | CV=0.7571
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=0.2454
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=55 | SV_activas=53 (96.36%)
+     SG_por_semilla_activa: media=5.849 | mediana=4.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.4925 std=0.3729 | SV=0 media=0.6272 std=0.3762
+     densidad SV=1 media=0.9377 std=0.1092 | SV=0 media=0.5589 std=0.3925
+     riesgo   SV=1 media=0.0883 std=0.1082 | SV=0 media=0.1805 std=0.2926
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD045_UR045_PE80_I0
+------------------------------------
+im     SV=42  SG=53   SG/SV=1.26
+imU    SV=17  SG=86   SG/SV=5.06
+om     SV=10  SG=98   SG/SV=9.80
+pp     SV=27  SG=73   SG/SV=2.70
+
+  ▶ Total sintéticos (SG): 310
+  ▶ Cobertura de clases  : 4/4
+  ▶ Entropía (solo SV=1):
+     n=96 | media=0.5441 | std=0.3785 | CV=0.6957
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=0.0070
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=96 | SV_activas=84 (87.50%)
+     SG_por_semilla_activa: media=3.690 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.5441 std=0.3785 | SV=0 media=0.6387 std=0.3770
+     densidad SV=1 media=0.9539 std=0.1087 | SV=0 media=0.6486 std=0.4074
+     riesgo   SV=1 media=0.0714 std=0.1036 | SV=0 media=0.2886 std=0.3517
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD060_UR045_PE70_I0
+------------------------------------
+im     SV=34  SG=53   SG/SV=1.56
+imU    SV=16  SG=86   SG/SV=5.38
+om     SV=7   SG=98   SG/SV=14.00
+pp     SV=20  SG=73   SG/SV=3.65
+
+  ▶ Total sintéticos (SG): 310
+  ▶ Cobertura de clases  : 4/4
+  ▶ Entropía (solo SV=1):
+     n=77 | media=0.4674 | std=0.3697 | CV=0.7909
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=-0.0209
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=77 | SV_activas=68 (88.31%)
+     SG_por_semilla_activa: media=4.559 | mediana=3.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.4674 std=0.3697 | SV=0 media=0.6982 std=0.3544
+     densidad SV=1 media=0.9685 std=0.0755 | SV=0 media=0.7164 std=0.3752
+     riesgo   SV=1 media=0.0686 std=0.1026 | SV=0 media=0.2319 std=0.3176
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+====================================================================================================
+Dataset: glass
+====================================================================================================
+
+PRD70_PR30_CPprop_UD050_UR040_Upp060_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0204 std=0.0596 | SV=0 media=0.1054 std=0.2375
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD050_UR040_Upp060_I1
+---------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0170 std=0.0565 | SV=0 media=0.1053 std=0.2315
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD050_UR040_Upp060_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0143 std=0.0541 | SV=0 media=0.1034 std=0.2299
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD050_UR040_Upp070_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0204 std=0.0596 | SV=0 media=0.1054 std=0.2375
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD050_UR040_Upp070_I1
+---------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0170 std=0.0565 | SV=0 media=0.1053 std=0.2315
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD050_UR040_Upp070_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0143 std=0.0541 | SV=0 media=0.1034 std=0.2299
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD050_UR050_Upp060_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0204 std=0.0596 | SV=0 media=0.1054 std=0.2375
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD050_UR050_Upp060_I1
+---------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0170 std=0.0565 | SV=0 media=0.1053 std=0.2315
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD050_UR050_Upp060_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0143 std=0.0541 | SV=0 media=0.1034 std=0.2299
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD050_UR050_Upp070_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0204 std=0.0596 | SV=0 media=0.1054 std=0.2375
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD050_UR050_Upp070_I1
+---------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0170 std=0.0565 | SV=0 media=0.1053 std=0.2315
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD050_UR050_Upp070_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0143 std=0.0541 | SV=0 media=0.1034 std=0.2299
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD060_UR040_Upp060_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0209 std=0.0603 | SV=0 media=0.1037 std=0.2359
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD060_UR040_Upp060_I1
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0179 std=0.0578 | SV=0 media=0.1017 std=0.2283
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD060_UR040_Upp060_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0143 std=0.0541 | SV=0 media=0.1034 std=0.2299
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD060_UR040_Upp070_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0209 std=0.0603 | SV=0 media=0.1037 std=0.2359
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD060_UR040_Upp070_I1
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0179 std=0.0578 | SV=0 media=0.1017 std=0.2283
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD060_UR040_Upp070_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0143 std=0.0541 | SV=0 media=0.1034 std=0.2299
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD060_UR050_Upp060_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0209 std=0.0603 | SV=0 media=0.1037 std=0.2359
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD060_UR050_Upp060_I1
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0179 std=0.0578 | SV=0 media=0.1017 std=0.2283
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD060_UR050_Upp060_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0143 std=0.0541 | SV=0 media=0.1034 std=0.2299
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD060_UR050_Upp070_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0209 std=0.0603 | SV=0 media=0.1037 std=0.2359
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD060_UR050_Upp070_I1
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0179 std=0.0578 | SV=0 media=0.1017 std=0.2283
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR30_CPprop_UD060_UR050_Upp070_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0143 std=0.0541 | SV=0 media=0.1034 std=0.2299
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPent_UD050_UR045_PE70_I0
+------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía (solo SV=1):
+     n=42 | media=0.2619 | std=0.3816 | CV=1.4573
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=-0.0389
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.2619 std=0.3816 | SV=0 media=0.5834 std=0.3939
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0476 std=0.0874 | SV=0 media=0.1358 std=0.2627
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPent_UD050_UR045_PE70_I1
+------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía (solo SV=1):
+     n=42 | media=0.2554 | std=0.3734 | CV=1.4620
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=-0.2561
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.2554 std=0.3734 | SV=0 media=0.5945 std=0.3868
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0476 std=0.0874 | SV=0 media=0.1404 std=0.2679
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPent_UD060_UR045_PE70_I0
+------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía (solo SV=1):
+     n=41 | media=0.2682 | std=0.3841 | CV=1.4318
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=-0.0076
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.2682 std=0.3841 | SV=0 media=0.5740 std=0.3976
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0488 std=0.0881 | SV=0 media=0.1336 std=0.2611
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPent_UD060_UR045_PE70_I1
+------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía (solo SV=1):
+     n=40 | media=0.2534 | std=0.3768 | CV=1.4872
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=-0.1105
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.2534 std=0.3768 | SV=0 media=0.5844 std=0.3878
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0500 std=0.0889 | SV=0 media=0.1356 std=0.2645
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD050_UR040_Upp060_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0476 std=0.0874 | SV=0 media=0.1358 std=0.2627
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD050_UR040_Upp060_I1
+---------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0476 std=0.0874 | SV=0 media=0.1404 std=0.2679
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD050_UR040_Upp060_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0464 std=0.0879 | SV=0 media=0.1379 std=0.2662
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD050_UR040_Upp070_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0476 std=0.0874 | SV=0 media=0.1358 std=0.2627
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD050_UR040_Upp070_I1
+---------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0476 std=0.0874 | SV=0 media=0.1404 std=0.2679
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD050_UR040_Upp070_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0464 std=0.0879 | SV=0 media=0.1379 std=0.2662
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD050_UR050_Upp060_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0476 std=0.0874 | SV=0 media=0.1358 std=0.2627
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD050_UR050_Upp060_I1
+---------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0476 std=0.0874 | SV=0 media=0.1404 std=0.2679
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD050_UR050_Upp060_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0464 std=0.0879 | SV=0 media=0.1379 std=0.2662
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD050_UR050_Upp070_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0476 std=0.0874 | SV=0 media=0.1358 std=0.2627
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD050_UR050_Upp070_I1
+---------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0476 std=0.0874 | SV=0 media=0.1404 std=0.2679
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD050_UR050_Upp070_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0464 std=0.0879 | SV=0 media=0.1379 std=0.2662
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD060_UR040_Upp060_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0488 std=0.0881 | SV=0 media=0.1336 std=0.2611
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD060_UR040_Upp060_I1
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0500 std=0.0889 | SV=0 media=0.1356 std=0.2645
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD060_UR040_Upp060_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0464 std=0.0879 | SV=0 media=0.1379 std=0.2662
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD060_UR040_Upp070_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0488 std=0.0881 | SV=0 media=0.1336 std=0.2611
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD060_UR040_Upp070_I1
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0500 std=0.0889 | SV=0 media=0.1356 std=0.2645
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD060_UR040_Upp070_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0464 std=0.0879 | SV=0 media=0.1379 std=0.2662
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD060_UR050_Upp060_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0488 std=0.0881 | SV=0 media=0.1336 std=0.2611
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD060_UR050_Upp060_I1
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0500 std=0.0889 | SV=0 media=0.1356 std=0.2645
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD060_UR050_Upp060_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0464 std=0.0879 | SV=0 media=0.1379 std=0.2662
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD060_UR050_Upp070_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0488 std=0.0881 | SV=0 media=0.1336 std=0.2611
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD060_UR050_Upp070_I1
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0500 std=0.0889 | SV=0 media=0.1356 std=0.2645
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPprop_UD060_UR050_Upp070_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0464 std=0.0879 | SV=0 media=0.1379 std=0.2662
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD050_UR040_Upp060_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0612 std=0.1099 | SV=0 media=0.1827 std=0.2823
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD050_UR040_Upp060_I1
+---------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0612 std=0.1053 | SV=0 media=0.1905 std=0.2849
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD050_UR040_Upp060_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0607 std=0.1067 | SV=0 media=0.1847 std=0.2832
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD050_UR040_Upp070_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0612 std=0.1099 | SV=0 media=0.1827 std=0.2823
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD050_UR040_Upp070_I1
+---------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0612 std=0.1053 | SV=0 media=0.1905 std=0.2849
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD050_UR040_Upp070_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0607 std=0.1067 | SV=0 media=0.1847 std=0.2832
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD050_UR050_Upp060_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0612 std=0.1099 | SV=0 media=0.1827 std=0.2823
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD050_UR050_Upp060_I1
+---------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0612 std=0.1053 | SV=0 media=0.1905 std=0.2849
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD050_UR050_Upp060_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0607 std=0.1067 | SV=0 media=0.1847 std=0.2832
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD050_UR050_Upp070_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=23 (54.76%)
+     SG_por_semilla_activa: media=4.087 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9660 std=0.0988 | SV=0 media=0.5152 std=0.3853
+     riesgo   SV=1 media=0.0612 std=0.1099 | SV=0 media=0.1827 std=0.2823
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD050_UR050_Upp070_I1
+---------------------------------------
+1      SV=25  SG=5    SG/SV=0.20
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=42 | SV_activas=20 (47.62%)
+     SG_por_semilla_activa: media=4.700 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9592 std=0.1106 | SV=0 media=0.5113 std=0.3837
+     riesgo   SV=1 media=0.0612 std=0.1053 | SV=0 media=0.1905 std=0.2849
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD050_UR050_Upp070_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0607 std=0.1067 | SV=0 media=0.1847 std=0.2832
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD060_UR040_Upp060_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0627 std=0.1109 | SV=0 media=0.1797 std=0.2809
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD060_UR040_Upp060_I1
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0643 std=0.1071 | SV=0 media=0.1840 std=0.2821
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD060_UR040_Upp060_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0607 std=0.1067 | SV=0 media=0.1847 std=0.2832
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD060_UR040_Upp070_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0627 std=0.1109 | SV=0 media=0.1797 std=0.2809
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD060_UR040_Upp070_I1
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0643 std=0.1071 | SV=0 media=0.1840 std=0.2821
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD060_UR040_Upp070_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0607 std=0.1067 | SV=0 media=0.1847 std=0.2832
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD060_UR050_Upp060_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0627 std=0.1109 | SV=0 media=0.1797 std=0.2809
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD060_UR050_Upp060_I1
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0643 std=0.1071 | SV=0 media=0.1840 std=0.2821
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD060_UR050_Upp060_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0607 std=0.1067 | SV=0 media=0.1847 std=0.2832
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD060_UR050_Upp070_I0
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=41 | SV_activas=21 (51.22%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9756 std=0.0776 | SV=0 media=0.5161 std=0.3822
+     riesgo   SV=1 media=0.0627 std=0.1109 | SV=0 media=0.1797 std=0.2809
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD060_UR050_Upp070_I1
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=51   SG/SV=25.50
+7      SV=15  SG=38   SG/SV=2.53
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.476 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5133 std=0.3771
+     riesgo   SV=1 media=0.0643 std=0.1071 | SV=0 media=0.1840 std=0.2821
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR50_CPprop_UD060_UR050_Upp070_I3
+---------------------------------------
+1      SV=23  SG=5    SG/SV=0.22
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=2   SG=50   SG/SV=25.00
+7      SV=15  SG=37   SG/SV=2.47
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=40 | SV_activas=21 (52.50%)
+     SG_por_semilla_activa: media=4.381 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9786 std=0.0690 | SV=0 media=0.5099 std=0.3757
+     riesgo   SV=1 media=0.0607 std=0.1067 | SV=0 media=0.1847 std=0.2832
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD050_UR040_Upp060_I0
+---------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=25 (46.30%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9392 std=0.1348 | SV=0 media=0.7493 std=0.4088
+     riesgo   SV=1 media=0.0212 std=0.0583 | SV=0 media=0.1254 std=0.2602
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD050_UR040_Upp060_I1
+---------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=25 (47.17%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9461 std=0.1291 | SV=0 media=0.7391 std=0.3801
+     riesgo   SV=1 media=0.0189 std=0.0563 | SV=0 media=0.1242 std=0.2531
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD050_UR040_Upp060_I3
+---------------------------------------
+1      SV=32  SG=5    SG/SV=0.16
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=24 (46.15%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9478 std=0.1266 | SV=0 media=0.7360 std=0.3713
+     riesgo   SV=1 media=0.0165 std=0.0541 | SV=0 media=0.1242 std=0.2531
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD050_UR040_Upp070_I0
+---------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=25 (46.30%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9392 std=0.1348 | SV=0 media=0.7493 std=0.4088
+     riesgo   SV=1 media=0.0212 std=0.0583 | SV=0 media=0.1254 std=0.2602
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD050_UR040_Upp070_I1
+---------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=25 (47.17%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9461 std=0.1291 | SV=0 media=0.7391 std=0.3801
+     riesgo   SV=1 media=0.0189 std=0.0563 | SV=0 media=0.1242 std=0.2531
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD050_UR040_Upp070_I3
+---------------------------------------
+1      SV=32  SG=5    SG/SV=0.16
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=24 (46.15%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9478 std=0.1266 | SV=0 media=0.7360 std=0.3713
+     riesgo   SV=1 media=0.0165 std=0.0541 | SV=0 media=0.1242 std=0.2531
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD050_UR050_Upp060_I0
+---------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=25 (46.30%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9392 std=0.1348 | SV=0 media=0.7493 std=0.4088
+     riesgo   SV=1 media=0.0212 std=0.0583 | SV=0 media=0.1254 std=0.2602
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD050_UR050_Upp060_I1
+---------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=25 (47.17%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9461 std=0.1291 | SV=0 media=0.7391 std=0.3801
+     riesgo   SV=1 media=0.0189 std=0.0563 | SV=0 media=0.1242 std=0.2531
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD050_UR050_Upp060_I3
+---------------------------------------
+1      SV=32  SG=5    SG/SV=0.16
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=24 (46.15%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9478 std=0.1266 | SV=0 media=0.7360 std=0.3713
+     riesgo   SV=1 media=0.0165 std=0.0541 | SV=0 media=0.1242 std=0.2531
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD050_UR050_Upp070_I0
+---------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=25 (46.30%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9392 std=0.1348 | SV=0 media=0.7493 std=0.4088
+     riesgo   SV=1 media=0.0212 std=0.0583 | SV=0 media=0.1254 std=0.2602
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD050_UR050_Upp070_I1
+---------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=25 (47.17%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9461 std=0.1291 | SV=0 media=0.7391 std=0.3801
+     riesgo   SV=1 media=0.0189 std=0.0563 | SV=0 media=0.1242 std=0.2531
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD050_UR050_Upp070_I3
+---------------------------------------
+1      SV=32  SG=5    SG/SV=0.16
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=24 (46.15%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9478 std=0.1266 | SV=0 media=0.7360 std=0.3713
+     riesgo   SV=1 media=0.0165 std=0.0541 | SV=0 media=0.1242 std=0.2531
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD060_UR040_Upp060_I0
+---------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Dumbbell: clases sin generación (SV=0 o SG=0): 3
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=50 | SV_activas=24 (48.00%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9686 std=0.0880 | SV=0 media=0.7358 std=0.3956
+     riesgo   SV=1 media=0.0229 std=0.0603 | SV=0 media=0.1159 std=0.2522
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD060_UR040_Upp060_I1
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9767 std=0.0735 | SV=0 media=0.7257 std=0.3672
+     riesgo   SV=1 media=0.0204 std=0.0583 | SV=0 media=0.1143 std=0.2449
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD060_UR040_Upp060_I3
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9708 std=0.0874 | SV=0 media=0.7259 std=0.3617
+     riesgo   SV=1 media=0.0175 std=0.0556 | SV=0 media=0.1166 std=0.2469
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD060_UR040_Upp070_I0
+---------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=50 | SV_activas=24 (48.00%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9686 std=0.0880 | SV=0 media=0.7358 std=0.3956
+     riesgo   SV=1 media=0.0229 std=0.0603 | SV=0 media=0.1159 std=0.2522
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD060_UR040_Upp070_I1
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9767 std=0.0735 | SV=0 media=0.7257 std=0.3672
+     riesgo   SV=1 media=0.0204 std=0.0583 | SV=0 media=0.1143 std=0.2449
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD060_UR040_Upp070_I3
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9708 std=0.0874 | SV=0 media=0.7259 std=0.3617
+     riesgo   SV=1 media=0.0175 std=0.0556 | SV=0 media=0.1166 std=0.2469
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD060_UR050_Upp060_I0
+---------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=50 | SV_activas=24 (48.00%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9686 std=0.0880 | SV=0 media=0.7358 std=0.3956
+     riesgo   SV=1 media=0.0229 std=0.0603 | SV=0 media=0.1159 std=0.2522
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD060_UR050_Upp060_I1
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9767 std=0.0735 | SV=0 media=0.7257 std=0.3672
+     riesgo   SV=1 media=0.0204 std=0.0583 | SV=0 media=0.1143 std=0.2449
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD060_UR050_Upp060_I3
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9708 std=0.0874 | SV=0 media=0.7259 std=0.3617
+     riesgo   SV=1 media=0.0175 std=0.0556 | SV=0 media=0.1166 std=0.2469
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD060_UR050_Upp070_I0
+---------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=50 | SV_activas=24 (48.00%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9686 std=0.0880 | SV=0 media=0.7358 std=0.3956
+     riesgo   SV=1 media=0.0229 std=0.0603 | SV=0 media=0.1159 std=0.2522
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD060_UR050_Upp070_I1
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9767 std=0.0735 | SV=0 media=0.7257 std=0.3672
+     riesgo   SV=1 media=0.0204 std=0.0583 | SV=0 media=0.1143 std=0.2449
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR30_CPprop_UD060_UR050_Upp070_I3
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9708 std=0.0874 | SV=0 media=0.7259 std=0.3617
+     riesgo   SV=1 media=0.0175 std=0.0556 | SV=0 media=0.1166 std=0.2469
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD050_UR045_PE70_I0
+------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía (solo SV=1):
+     n=53 | media=0.3061 | std=0.3901 | CV=1.2742
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=-0.1382
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=22 (41.51%)
+     SG_por_semilla_activa: media=4.273 | mediana=3.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.3061 std=0.3901 | SV=0 media=0.6072 std=0.3940
+     densidad SV=1 media=0.9380 std=0.1358 | SV=0 media=0.7543 std=0.4062
+     riesgo   SV=1 media=0.0431 std=0.0821 | SV=0 media=0.1600 std=0.2837
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD050_UR045_PE70_I1
+------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía (solo SV=1):
+     n=52 | media=0.2954 | std=0.3859 | CV=1.3064
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=-0.2432
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=22 (42.31%)
+     SG_por_semilla_activa: media=4.273 | mediana=3.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.2954 std=0.3859 | SV=0 media=0.6224 std=0.3799
+     densidad SV=1 media=0.9451 std=0.1301 | SV=0 media=0.7447 std=0.3779
+     riesgo   SV=1 media=0.0440 std=0.0827 | SV=0 media=0.1641 std=0.2888
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD060_UR045_PE70_I0
+------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía (solo SV=1):
+     n=49 | media=0.3191 | std=0.3964 | CV=1.2424
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=-0.1798
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=22 (44.90%)
+     SG_por_semilla_activa: media=4.273 | mediana=3.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.3191 std=0.3964 | SV=0 media=0.5732 std=0.4040
+     densidad SV=1 media=0.9679 std=0.0888 | SV=0 media=0.7407 std=0.3935
+     riesgo   SV=1 media=0.0466 std=0.0845 | SV=0 media=0.1481 std=0.2761
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD060_UR045_PE70_I1
+------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=16  SG=38   SG/SV=2.38
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía (solo SV=1):
+     n=48 | media=0.3077 | std=0.3925 | CV=1.2754
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=-0.1584
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=48 | SV_activas=22 (45.83%)
+     SG_por_semilla_activa: media=4.273 | mediana=3.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.3077 std=0.3925 | SV=0 media=0.5852 std=0.3932
+     densidad SV=1 media=0.9762 std=0.0742 | SV=0 media=0.7311 std=0.3655
+     riesgo   SV=1 media=0.0476 std=0.0851 | SV=0 media=0.1513 std=0.2805
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD050_UR040_Upp060_I0
+---------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=25 (46.30%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9392 std=0.1348 | SV=0 media=0.7493 std=0.4088
+     riesgo   SV=1 media=0.0423 std=0.0815 | SV=0 media=0.1633 std=0.2857
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD050_UR040_Upp060_I1
+---------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=25 (47.17%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9461 std=0.1291 | SV=0 media=0.7391 std=0.3801
+     riesgo   SV=1 media=0.0431 std=0.0821 | SV=0 media=0.1677 std=0.2909
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD050_UR040_Upp060_I3
+---------------------------------------
+1      SV=32  SG=5    SG/SV=0.16
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=24 (46.15%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9478 std=0.1266 | SV=0 media=0.7360 std=0.3713
+     riesgo   SV=1 media=0.0412 std=0.0817 | SV=0 media=0.1677 std=0.2909
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD050_UR040_Upp070_I0
+---------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=25 (46.30%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9392 std=0.1348 | SV=0 media=0.7493 std=0.4088
+     riesgo   SV=1 media=0.0423 std=0.0815 | SV=0 media=0.1633 std=0.2857
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD050_UR040_Upp070_I1
+---------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=25 (47.17%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9461 std=0.1291 | SV=0 media=0.7391 std=0.3801
+     riesgo   SV=1 media=0.0431 std=0.0821 | SV=0 media=0.1677 std=0.2909
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD050_UR040_Upp070_I3
+---------------------------------------
+1      SV=32  SG=5    SG/SV=0.16
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=24 (46.15%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9478 std=0.1266 | SV=0 media=0.7360 std=0.3713
+     riesgo   SV=1 media=0.0412 std=0.0817 | SV=0 media=0.1677 std=0.2909
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD050_UR050_Upp060_I0
+---------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=25 (46.30%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9392 std=0.1348 | SV=0 media=0.7493 std=0.4088
+     riesgo   SV=1 media=0.0423 std=0.0815 | SV=0 media=0.1633 std=0.2857
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD050_UR050_Upp060_I1
+---------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=25 (47.17%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9461 std=0.1291 | SV=0 media=0.7391 std=0.3801
+     riesgo   SV=1 media=0.0431 std=0.0821 | SV=0 media=0.1677 std=0.2909
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD050_UR050_Upp060_I3
+---------------------------------------
+1      SV=32  SG=5    SG/SV=0.16
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=24 (46.15%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9478 std=0.1266 | SV=0 media=0.7360 std=0.3713
+     riesgo   SV=1 media=0.0412 std=0.0817 | SV=0 media=0.1677 std=0.2909
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD050_UR050_Upp070_I0
+---------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=25 (46.30%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9392 std=0.1348 | SV=0 media=0.7493 std=0.4088
+     riesgo   SV=1 media=0.0423 std=0.0815 | SV=0 media=0.1633 std=0.2857
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD050_UR050_Upp070_I1
+---------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=25 (47.17%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9461 std=0.1291 | SV=0 media=0.7391 std=0.3801
+     riesgo   SV=1 media=0.0431 std=0.0821 | SV=0 media=0.1677 std=0.2909
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD050_UR050_Upp070_I3
+---------------------------------------
+1      SV=32  SG=5    SG/SV=0.16
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=24 (46.15%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9478 std=0.1266 | SV=0 media=0.7360 std=0.3713
+     riesgo   SV=1 media=0.0412 std=0.0817 | SV=0 media=0.1677 std=0.2909
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD060_UR040_Upp060_I0
+---------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=50 | SV_activas=24 (48.00%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9686 std=0.0880 | SV=0 media=0.7358 std=0.3956
+     riesgo   SV=1 media=0.0457 std=0.0838 | SV=0 media=0.1509 std=0.2779
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD060_UR040_Upp060_I1
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9767 std=0.0735 | SV=0 media=0.7257 std=0.3672
+     riesgo   SV=1 media=0.0466 std=0.0845 | SV=0 media=0.1543 std=0.2825
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD060_UR040_Upp060_I3
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9708 std=0.0874 | SV=0 media=0.7259 std=0.3617
+     riesgo   SV=1 media=0.0437 std=0.0835 | SV=0 media=0.1574 std=0.2846
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD060_UR040_Upp070_I0
+---------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=50 | SV_activas=24 (48.00%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9686 std=0.0880 | SV=0 media=0.7358 std=0.3956
+     riesgo   SV=1 media=0.0457 std=0.0838 | SV=0 media=0.1509 std=0.2779
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD060_UR040_Upp070_I1
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9767 std=0.0735 | SV=0 media=0.7257 std=0.3672
+     riesgo   SV=1 media=0.0466 std=0.0845 | SV=0 media=0.1543 std=0.2825
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD060_UR040_Upp070_I3
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9708 std=0.0874 | SV=0 media=0.7259 std=0.3617
+     riesgo   SV=1 media=0.0437 std=0.0835 | SV=0 media=0.1574 std=0.2846
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD060_UR050_Upp060_I0
+---------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=50 | SV_activas=24 (48.00%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9686 std=0.0880 | SV=0 media=0.7358 std=0.3956
+     riesgo   SV=1 media=0.0457 std=0.0838 | SV=0 media=0.1509 std=0.2779
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD060_UR050_Upp060_I1
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9767 std=0.0735 | SV=0 media=0.7257 std=0.3672
+     riesgo   SV=1 media=0.0466 std=0.0845 | SV=0 media=0.1543 std=0.2825
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD060_UR050_Upp060_I3
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9708 std=0.0874 | SV=0 media=0.7259 std=0.3617
+     riesgo   SV=1 media=0.0437 std=0.0835 | SV=0 media=0.1574 std=0.2846
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD060_UR050_Upp070_I0
+---------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=50 | SV_activas=24 (48.00%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9686 std=0.0880 | SV=0 media=0.7358 std=0.3956
+     riesgo   SV=1 media=0.0457 std=0.0838 | SV=0 media=0.1509 std=0.2779
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD060_UR050_Upp070_I1
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9767 std=0.0735 | SV=0 media=0.7257 std=0.3672
+     riesgo   SV=1 media=0.0466 std=0.0845 | SV=0 media=0.1543 std=0.2825
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPprop_UD060_UR050_Upp070_I3
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9708 std=0.0874 | SV=0 media=0.7259 std=0.3617
+     riesgo   SV=1 media=0.0437 std=0.0835 | SV=0 media=0.1574 std=0.2846
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR040_Upp060_I0
+---------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=25 (46.30%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9392 std=0.1348 | SV=0 media=0.7493 std=0.4088
+     riesgo   SV=1 media=0.0556 std=0.1016 | SV=0 media=0.2187 std=0.3032
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR040_Upp060_I1
+---------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=25 (47.17%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9461 std=0.1291 | SV=0 media=0.7391 std=0.3801
+     riesgo   SV=1 media=0.0566 std=0.0984 | SV=0 media=0.2267 std=0.3050
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR040_Upp060_I3
+---------------------------------------
+1      SV=32  SG=5    SG/SV=0.16
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=24 (46.15%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9478 std=0.1266 | SV=0 media=0.7360 std=0.3713
+     riesgo   SV=1 media=0.0549 std=0.0986 | SV=0 media=0.2236 std=0.3051
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR040_Upp070_I0
+---------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=25 (46.30%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9392 std=0.1348 | SV=0 media=0.7493 std=0.4088
+     riesgo   SV=1 media=0.0556 std=0.1016 | SV=0 media=0.2187 std=0.3032
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR040_Upp070_I1
+---------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=25 (47.17%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9461 std=0.1291 | SV=0 media=0.7391 std=0.3801
+     riesgo   SV=1 media=0.0566 std=0.0984 | SV=0 media=0.2267 std=0.3050
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR040_Upp070_I3
+---------------------------------------
+1      SV=32  SG=5    SG/SV=0.16
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=24 (46.15%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9478 std=0.1266 | SV=0 media=0.7360 std=0.3713
+     riesgo   SV=1 media=0.0549 std=0.0986 | SV=0 media=0.2236 std=0.3051
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR050_Upp060_I0
+---------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=25 (46.30%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9392 std=0.1348 | SV=0 media=0.7493 std=0.4088
+     riesgo   SV=1 media=0.0556 std=0.1016 | SV=0 media=0.2187 std=0.3032
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR050_Upp060_I1
+---------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=25 (47.17%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9461 std=0.1291 | SV=0 media=0.7391 std=0.3801
+     riesgo   SV=1 media=0.0566 std=0.0984 | SV=0 media=0.2267 std=0.3050
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR050_Upp060_I3
+---------------------------------------
+1      SV=32  SG=5    SG/SV=0.16
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=24 (46.15%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9478 std=0.1266 | SV=0 media=0.7360 std=0.3713
+     riesgo   SV=1 media=0.0549 std=0.0986 | SV=0 media=0.2236 std=0.3051
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR050_Upp070_I0
+---------------------------------------
+1      SV=34  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=25 (46.30%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9392 std=0.1348 | SV=0 media=0.7493 std=0.4088
+     riesgo   SV=1 media=0.0556 std=0.1016 | SV=0 media=0.2187 std=0.3032
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR050_Upp070_I1
+---------------------------------------
+1      SV=33  SG=5    SG/SV=0.15
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=53 | SV_activas=25 (47.17%)
+     SG_por_semilla_activa: media=3.760 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9461 std=0.1291 | SV=0 media=0.7391 std=0.3801
+     riesgo   SV=1 media=0.0566 std=0.0984 | SV=0 media=0.2267 std=0.3050
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR050_Upp070_I3
+---------------------------------------
+1      SV=32  SG=5    SG/SV=0.16
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=52 | SV_activas=24 (46.15%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9478 std=0.1266 | SV=0 media=0.7360 std=0.3713
+     riesgo   SV=1 media=0.0549 std=0.0986 | SV=0 media=0.2236 std=0.3051
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD060_UR040_Upp060_I0
+---------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=50 | SV_activas=24 (48.00%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9686 std=0.0880 | SV=0 media=0.7358 std=0.3956
+     riesgo   SV=1 media=0.0600 std=0.1044 | SV=0 media=0.2022 std=0.2971
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD060_UR040_Upp060_I1
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9767 std=0.0735 | SV=0 media=0.7257 std=0.3672
+     riesgo   SV=1 media=0.0612 std=0.1010 | SV=0 media=0.2086 std=0.2988
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD060_UR040_Upp060_I3
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9708 std=0.0874 | SV=0 media=0.7259 std=0.3617
+     riesgo   SV=1 media=0.0583 std=0.1007 | SV=0 media=0.2099 std=0.3004
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD060_UR040_Upp070_I0
+---------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=50 | SV_activas=24 (48.00%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9686 std=0.0880 | SV=0 media=0.7358 std=0.3956
+     riesgo   SV=1 media=0.0600 std=0.1044 | SV=0 media=0.2022 std=0.2971
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD060_UR040_Upp070_I1
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9767 std=0.0735 | SV=0 media=0.7257 std=0.3672
+     riesgo   SV=1 media=0.0612 std=0.1010 | SV=0 media=0.2086 std=0.2988
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD060_UR040_Upp070_I3
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9708 std=0.0874 | SV=0 media=0.7259 std=0.3617
+     riesgo   SV=1 media=0.0583 std=0.1007 | SV=0 media=0.2099 std=0.3004
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD060_UR050_Upp060_I0
+---------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=50 | SV_activas=24 (48.00%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9686 std=0.0880 | SV=0 media=0.7358 std=0.3956
+     riesgo   SV=1 media=0.0600 std=0.1044 | SV=0 media=0.2022 std=0.2971
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD060_UR050_Upp060_I1
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9767 std=0.0735 | SV=0 media=0.7257 std=0.3672
+     riesgo   SV=1 media=0.0612 std=0.1010 | SV=0 media=0.2086 std=0.2988
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD060_UR050_Upp060_I3
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9708 std=0.0874 | SV=0 media=0.7259 std=0.3617
+     riesgo   SV=1 media=0.0583 std=0.1007 | SV=0 media=0.2099 std=0.3004
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD060_UR050_Upp070_I0
+---------------------------------------
+1      SV=30  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=50 | SV_activas=24 (48.00%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9686 std=0.0880 | SV=0 media=0.7358 std=0.3956
+     riesgo   SV=1 media=0.0600 std=0.1044 | SV=0 media=0.2022 std=0.2971
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD060_UR050_Upp070_I1
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=51   SG/SV=17.00
+7      SV=17  SG=38   SG/SV=2.24
+
+  ▶ Total sintéticos (SG): 94
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.917 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9767 std=0.0735 | SV=0 media=0.7257 std=0.3672
+     riesgo   SV=1 media=0.0612 std=0.1010 | SV=0 media=0.2086 std=0.2988
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD060_UR050_Upp070_I3
+---------------------------------------
+1      SV=29  SG=5    SG/SV=0.17
+3      SV=0   SG=0    SG/SV=0.00
+5      SV=3   SG=50   SG/SV=16.67
+7      SV=17  SG=37   SG/SV=2.18
+
+  ▶ Total sintéticos (SG): 92
+  ▶ Cobertura de clases  : 3/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=49 | SV_activas=24 (48.98%)
+     SG_por_semilla_activa: media=3.833 | mediana=2.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9708 std=0.0874 | SV=0 media=0.7259 std=0.3617
+     riesgo   SV=1 media=0.0583 std=0.1007 | SV=0 media=0.2099 std=0.3004
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+====================================================================================================
+Dataset: heart
+====================================================================================================
+
+PRD85_PR40_CPent_UD050_UR045_PE60_I0
+------------------------------------
+1      SV=0   SG=0    SG/SV=0.00
+2      SV=1   SG=102  SG/SV=102.00
+3      SV=0   SG=0    SG/SV=0.00
+4      SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 102
+  ▶ Cobertura de clases  : 1/4
+  ▶ Entropía (solo SV=1):
+     n=1 | media=0.8631 | std=0.0000 | CV=0.0000
+  ▶ Correlación entropía↔SG: datos insuficientes (n<3)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=1 | SV_activas=1 (100.00%)
+     SG_por_semilla_activa: media=102.000 | mediana=102.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.8631 std=0.0000 | SV=0 media=0.6046 std=0.3565
+     densidad SV=1 media=1.0000 std=0.0000 | SV=0 media=0.8455 std=0.3017
+     riesgo   SV=1 media=0.0000 std=0.0000 | SV=0 media=0.3234 std=0.3172
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD050_UR045_PE60_I1
+------------------------------------
+1      SV=0   SG=0    SG/SV=0.00
+2      SV=1   SG=101  SG/SV=101.00
+3      SV=0   SG=0    SG/SV=0.00
+4      SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 101
+  ▶ Cobertura de clases  : 1/4
+  ▶ Entropía (solo SV=1):
+     n=1 | media=0.8631 | std=0.0000 | CV=0.0000
+  ▶ Correlación entropía↔SG: datos insuficientes (n<3)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=1 | SV_activas=1 (100.00%)
+     SG_por_semilla_activa: media=101.000 | mediana=101.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.8631 std=0.0000 | SV=0 media=0.6098 std=0.3519
+     densidad SV=1 media=1.0000 std=0.0000 | SV=0 media=0.8464 std=0.3046
+     riesgo   SV=1 media=0.0000 std=0.0000 | SV=0 media=0.3275 std=0.3173
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR055_Upp045_I0
+---------------------------------------
+1      SV=3   SG=87   SG/SV=29.00
+2      SV=2   SG=102  SG/SV=51.00
+3      SV=0   SG=0    SG/SV=0.00
+4      SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 189
+  ▶ Cobertura de clases  : 2/4
+  ▶ Dumbbell: clases sin generación (SV=0 o SG=0): 3, 4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=5 | SV_activas=5 (100.00%)
+     SG_por_semilla_activa: media=37.800 | mediana=32.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=1.0000 std=0.0000 | SV=0 media=0.8396 std=0.3059
+     riesgo   SV=1 media=0.2857 std=0.2020 | SV=0 media=0.3962 std=0.3382
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR055_Upp045_I1
+---------------------------------------
+1      SV=3   SG=86   SG/SV=28.67
+2      SV=2   SG=101  SG/SV=50.50
+3      SV=0   SG=0    SG/SV=0.00
+4      SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 187
+  ▶ Cobertura de clases  : 2/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=5 | SV_activas=5 (100.00%)
+     SG_por_semilla_activa: media=37.400 | mediana=31.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9714 std=0.0639 | SV=0 media=0.8417 std=0.3094
+     riesgo   SV=1 media=0.2857 std=0.2020 | SV=0 media=0.3950 std=0.3407
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR055_Upp045_I3
+---------------------------------------
+1      SV=3   SG=85   SG/SV=28.33
+2      SV=2   SG=99   SG/SV=49.50
+3      SV=0   SG=0    SG/SV=0.00
+4      SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 184
+  ▶ Cobertura de clases  : 2/4
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=5 | SV_activas=5 (100.00%)
+     SG_por_semilla_activa: media=36.800 | mediana=31.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9714 std=0.0639 | SV=0 media=0.8416 std=0.3083
+     riesgo   SV=1 media=0.2857 std=0.2020 | SV=0 media=0.3960 std=0.3404
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+====================================================================================================
+Dataset: predict_faults
+====================================================================================================
+
+PRD85_PR40_CPent_UD050_UR045_PE60_I0
+------------------------------------
+Heat Dissipation Failure SV=12  SG=7632 SG/SV=636.00
+Overstrain Failure SV=4   SG=7660 SG/SV=1915.00
+Power Failure SV=14  SG=7646 SG/SV=546.14
+Random Failures SV=0   SG=0    SG/SV=0.00
+Tool Wear Failure SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 22938
+  ▶ Cobertura de clases  : 3/5
+  ▶ Entropía (solo SV=1):
+     n=30 | media=0.6863 | std=0.2648 | CV=0.3859
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=0.6154
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=30 | SV_activas=30 (100.00%)
+     SG_por_semilla_activa: media=764.600 | mediana=610.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.6863 std=0.2648 | SV=0 media=0.5984 std=0.4030
+     densidad SV=1 media=0.9429 std=0.1100 | SV=0 media=0.8381 std=0.3021
+     riesgo   SV=1 media=0.0810 std=0.0970 | SV=0 media=0.2903 std=0.3025
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD050_UR045_PE60_I1
+------------------------------------
+Heat Dissipation Failure SV=12  SG=7555 SG/SV=629.58
+Overstrain Failure SV=4   SG=7583 SG/SV=1895.75
+Power Failure SV=15  SG=7569 SG/SV=504.60
+Random Failures SV=0   SG=0    SG/SV=0.00
+Tool Wear Failure SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 22707
+  ▶ Cobertura de clases  : 3/5
+  ▶ Entropía (solo SV=1):
+     n=31 | media=0.4471 | std=0.4197 | CV=0.9388
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=0.8274
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=31 | SV_activas=31 (100.00%)
+     SG_por_semilla_activa: media=732.484 | mediana=593.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.4471 std=0.4197 | SV=0 media=0.5942 std=0.4061
+     densidad SV=1 media=0.9217 std=0.1514 | SV=0 media=0.8400 std=0.2953
+     riesgo   SV=1 media=0.0553 std=0.0953 | SV=0 media=0.2928 std=0.3082
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR055_Upp045_I0
+---------------------------------------
+Heat Dissipation Failure SV=22  SG=7632 SG/SV=346.91
+Overstrain Failure SV=12  SG=7660 SG/SV=638.33
+Power Failure SV=17  SG=7646 SG/SV=449.76
+Random Failures SV=0   SG=0    SG/SV=0.00
+Tool Wear Failure SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 22938
+  ▶ Cobertura de clases  : 3/5
+  ▶ Dumbbell: clases sin generación (SV=0 o SG=0): Random Failures, Tool Wear Failure
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=51 | SV_activas=51 (100.00%)
+     SG_por_semilla_activa: media=449.765 | mediana=439.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9664 std=0.0885 | SV=0 media=0.8232 std=0.3116
+     riesgo   SV=1 media=0.1737 std=0.1599 | SV=0 media=0.3782 std=0.3476
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR055_Upp045_I1
+---------------------------------------
+Heat Dissipation Failure SV=22  SG=7555 SG/SV=343.41
+Overstrain Failure SV=12  SG=7583 SG/SV=631.92
+Power Failure SV=20  SG=7569 SG/SV=378.45
+Random Failures SV=0   SG=0    SG/SV=0.00
+Tool Wear Failure SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 22707
+  ▶ Cobertura de clases  : 3/5
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=54 | SV_activas=54 (100.00%)
+     SG_por_semilla_activa: media=420.500 | mediana=372.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9471 std=0.1310 | SV=0 media=0.8252 std=0.3054
+     riesgo   SV=1 media=0.1508 std=0.1675 | SV=0 media=0.3829 std=0.3496
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR50_CPprop_UD050_UR055_Upp045_I3
+---------------------------------------
+Heat Dissipation Failure SV=22  SG=7403 SG/SV=336.50
+Overstrain Failure SV=12  SG=7430 SG/SV=619.17
+Power Failure SV=21  SG=7417 SG/SV=353.19
+Random Failures SV=0   SG=0    SG/SV=0.00
+Tool Wear Failure SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 22250
+  ▶ Cobertura de clases  : 3/5
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=55 | SV_activas=55 (100.00%)
+     SG_por_semilla_activa: media=404.545 | mediana=353.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia (omitido: NaN tras conversión)
+     densidad SV=1 media=0.9455 std=0.1275 | SV=0 media=0.8241 std=0.3059
+     riesgo   SV=1 media=0.1455 std=0.1683 | SV=0 media=0.3848 std=0.3462
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+====================================================================================================
+Dataset: telco_churn
+====================================================================================================
+
+PRD70_PR30_CPprop_UD050_UR040_Upp6000_I0
+----------------------------------------
+churn  SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 0
+  ▶ Cobertura de clases  : 0/1
+  ⚠ Configuración inválida (SG = 0)
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia semillas: sin semillas válidas
+  ▶ Comparación SV vs no-SV: datos insuficientes (uno de los grupos vacío)
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPent_UD060_UR045_PE70_I0
+------------------------------------
+churn  SV=727 SG=2644 SG/SV=3.64
+
+  ▶ Total sintéticos (SG): 2644
+  ▶ Cobertura de clases  : 1/1
+  ▶ Entropía (solo SV=1):
+     n=727 | media=0.7855 | std=0.2795 | CV=0.3559
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=-0.0272
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=727 | SV_activas=710 (97.66%)
+     SG_por_semilla_activa: media=3.724 | mediana=4.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.7855 std=0.2795 | SV=0 media=0.7317 std=0.3198
+     densidad SV=1 media=0.9800 std=0.0657 | SV=0 media=0.4349 std=0.3798
+     riesgo   SV=1 media=0.1600 std=0.1447 | SV=0 media=0.1607 std=0.2752
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD045_UR045_PE80_I0
+------------------------------------
+churn  SV=920 SG=2644 SG/SV=2.87
+
+  ▶ Total sintéticos (SG): 2644
+  ▶ Cobertura de clases  : 1/1
+  ▶ Entropía (solo SV=1):
+     n=920 | media=0.8036 | std=0.2687 | CV=0.3344
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=0.0444
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=920 | SV_activas=864 (93.91%)
+     SG_por_semilla_activa: media=3.060 | mediana=3.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.8036 std=0.2687 | SV=0 media=0.6847 std=0.3362
+     densidad SV=1 media=0.9781 std=0.0826 | SV=0 media=0.6450 std=0.3782
+     riesgo   SV=1 media=0.1315 std=0.1427 | SV=0 media=0.2065 std=0.3026
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD060_UR045_PE70_I0
+------------------------------------
+churn  SV=897 SG=2644 SG/SV=2.95
+
+  ▶ Total sintéticos (SG): 2644
+  ▶ Cobertura de clases  : 1/1
+  ▶ Entropía (solo SV=1):
+     n=897 | media=0.8010 | std=0.2708 | CV=0.3381
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=-0.0229
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=897 | SV_activas=841 (93.76%)
+     SG_por_semilla_activa: media=3.144 | mediana=3.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.8010 std=0.2708 | SV=0 media=0.6932 std=0.3335
+     densidad SV=1 media=0.9885 std=0.0515 | SV=0 media=0.6421 std=0.3711
+     riesgo   SV=1 media=0.1347 std=0.1430 | SV=0 media=0.1988 std=0.2993
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+====================================================================================================
+Dataset: us_crime
+====================================================================================================
+
+PRD70_PR30_CPprop_UD050_UR040_Upp6000_I0
+----------------------------------------
+1      SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 0
+  ▶ Cobertura de clases  : 0/1
+  ⚠ Configuración inválida (SG = 0)
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia semillas: sin semillas válidas
+  ▶ Comparación SV vs no-SV: datos insuficientes (uno de los grupos vacío)
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPent_UD060_UR045_PE70_I0
+------------------------------------
+1      SV=2   SG=1355 SG/SV=677.50
+
+  ▶ Total sintéticos (SG): 1355
+  ▶ Cobertura de clases  : 1/1
+  ▶ Entropía (solo SV=1):
+     n=2 | media=0.7274 | std=0.1919 | CV=0.2639
+  ▶ Correlación entropía↔SG: datos insuficientes (n<3)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=2 | SV_activas=2 (100.00%)
+     SG_por_semilla_activa: media=677.500 | mediana=677.500
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.7274 std=0.1919 | SV=0 media=0.6454 std=0.3800
+     densidad SV=1 media=1.0000 std=0.0000 | SV=0 media=0.6949 std=0.4275
+     riesgo   SV=1 media=0.1429 std=0.0000 | SV=0 media=0.3172 std=0.3819
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD045_UR045_PE80_I0
+------------------------------------
+1      SV=21  SG=1355 SG/SV=64.52
+
+  ▶ Total sintéticos (SG): 1355
+  ▶ Cobertura de clases  : 1/1
+  ▶ Entropía (solo SV=1):
+     n=21 | media=0.9607 | std=0.0886 | CV=0.0923
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=-0.2041
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=21 | SV_activas=21 (100.00%)
+     SG_por_semilla_activa: media=64.524 | mediana=65.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.9607 std=0.0886 | SV=0 media=0.5801 std=0.3818
+     densidad SV=1 media=0.9524 std=0.1137 | SV=0 media=0.8283 std=0.3396
+     riesgo   SV=1 media=0.0884 std=0.1391 | SV=0 media=0.3622 std=0.3969
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD060_UR045_PE70_I0
+------------------------------------
+1      SV=2   SG=1355 SG/SV=677.50
+
+  ▶ Total sintéticos (SG): 1355
+  ▶ Cobertura de clases  : 1/1
+  ▶ Entropía (solo SV=1):
+     n=2 | media=0.7274 | std=0.1919 | CV=0.2639
+  ▶ Correlación entropía↔SG: datos insuficientes (n<3)
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=2 | SV_activas=2 (100.00%)
+     SG_por_semilla_activa: media=677.500 | mediana=677.500
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.7274 std=0.1919 | SV=0 media=0.6454 std=0.3800
+     densidad SV=1 media=1.0000 std=0.0000 | SV=0 media=0.8475 std=0.3174
+     riesgo   SV=1 media=0.1429 std=0.0000 | SV=0 media=0.3172 std=0.3819
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+====================================================================================================
+Dataset: wdbc
+====================================================================================================
+
+PRD70_PR30_CPprop_UD050_UR040_Upp6000_I0
+----------------------------------------
+M      SV=0   SG=0    SG/SV=0.00
+
+  ▶ Total sintéticos (SG): 0
+  ▶ Cobertura de clases  : 0/1
+  ⚠ Configuración inválida (SG = 0)
+  ▶ Entropía: no aplica (criterio_pureza=proporcion)
+  ▶ Correlación entropía↔SG: no aplica (criterio_pureza=proporcion)
+  ▶ Eficiencia semillas: sin semillas válidas
+  ▶ Comparación SV vs no-SV: datos insuficientes (uno de los grupos vacío)
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD70_PR40_CPent_UD060_UR045_PE70_I0
+------------------------------------
+M      SV=78  SG=115  SG/SV=1.47
+
+  ▶ Total sintéticos (SG): 115
+  ▶ Cobertura de clases  : 1/1
+  ▶ Entropía (solo SV=1):
+     n=78 | media=0.0000 | std=0.0000 | CV=0.0000
+  ▶ Correlación entropía↔SG: no calculable
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=78 | SV_activas=61 (78.21%)
+     SG_por_semilla_activa: media=1.885 | mediana=1.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.0000 std=0.0000 | SV=0 media=0.3397 std=0.4053
+     densidad SV=1 media=0.9835 std=0.0608 | SV=0 media=0.4596 std=0.4447
+     riesgo   SV=1 media=0.0000 std=0.0000 | SV=0 media=0.1118 std=0.2219
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD045_UR045_PE80_I0
+------------------------------------
+M      SV=118 SG=115  SG/SV=0.97
+
+  ▶ Total sintéticos (SG): 115
+  ▶ Cobertura de clases  : 1/1
+  ▶ Entropía (solo SV=1):
+     n=118 | media=0.0552 | std=0.1728 | CV=3.1322
+  ▶ Correlación (Spearman) entropía ↔ SG_por_semilla (solo SV=1):
+     rho=0.0115
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=118 | SV_activas=79 (66.95%)
+     SG_por_semilla_activa: media=1.456 | mediana=1.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.0552 std=0.1728 | SV=0 media=0.4759 std=0.4415
+     densidad SV=1 media=0.9794 std=0.0841 | SV=0 media=0.5549 std=0.4671
+     riesgo   SV=1 media=0.0097 std=0.0361 | SV=0 media=0.1758 std=0.2752
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+
+PRD85_PR40_CPent_UD060_UR045_PE70_I0
+------------------------------------
+M      SV=104 SG=115  SG/SV=1.11
+
+  ▶ Total sintéticos (SG): 115
+  ▶ Cobertura de clases  : 1/1
+  ▶ Entropía (solo SV=1):
+     n=104 | media=0.0000 | std=0.0000 | CV=0.0000
+  ▶ Correlación entropía↔SG: no calculable
+  ▶ Eficiencia de semillas (solo SV=1):
+     SV_totales=104 | SV_activas=68 (65.38%)
+     SG_por_semilla_activa: media=1.691 | mediana=1.000
+  ▶ Diferencias SV=1 vs SV=0 (media y std):
+     entropia SV=1 media=0.0000 std=0.0000 | SV=0 media=0.4735 std=0.4070
+     densidad SV=1 media=0.9890 std=0.0552 | SV=0 media=0.6299 std=0.4461
+     riesgo   SV=1 media=0.0000 std=0.0000 | SV=0 media=0.1558 std=0.2490
+  ▶ Análisis de frontera por criterio:
+     pureza  : datos insuficientes (NaN tras conversión)
+     densidad: datos insuficientes (NaN tras conversión)
+     riesgo  : datos insuficientes (NaN tras conversión)
+c:\Users\FamiliaNatelloMedina\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\nanops.py:1632: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  return spearmanr(a, b)[0]
+c:\Users\FamiliaNatelloMedina\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\nanops.py:1632: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  return spearmanr(a, b)[0]
+
+pero el radar no se ejecuta no ves el log ?
