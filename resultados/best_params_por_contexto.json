@@ -1,20 +1,52 @@
 {
-  "('shuttle', 'RandomForest', '0')": {
+  "('telco_churn', 'RandomForest', '0')": {
     "mejores_params": {
       "classifier__n_estimators": 300,
       "classifier__max_features": "sqrt"
     },
-    "cv_f1_macro": 0.9625943362606083,
-    "cv_balanced_accuracy": 0.9426045711074634,
-    "cv_recall_macro": 0.9426045711074634
+    "cv_f1_macro": 0.71115757594759,
+    "cv_accuracy": 0.7900239715934254,
+    "cv_balanced_accuracy": 0.6989906118159102,
+    "cv_recall_macro": 0.6989906118159102
   },
-  "('shuttle', 'RandomForest', '1')": {
+  "('telco_churn', 'RandomForest', '10')": {
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "log2"
+    },
+    "cv_f1_macro": 0.7390474643162076,
+    "cv_accuracy": 0.8053254437869821,
+    "cv_balanced_accuracy": 0.7297557446171503,
+    "cv_recall_macro": 0.7297557446171503
+  },
+  "('telco_churn', 'RandomForest', '1')": {
+    "mejores_params": {
+      "classifier__n_estimators": 150,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.7154320258046513,
+    "cv_accuracy": 0.793795425687513,
+    "cv_balanced_accuracy": 0.7023376760571882,
+    "cv_recall_macro": 0.7023376760571882
+  },
+  "('telco_churn', 'RandomForest', '3')": {
     "mejores_params": {
       "classifier__n_estimators": 300,
       "classifier__max_features": "sqrt"
     },
-    "cv_f1_macro": 0.9339254137501722,
-    "cv_balanced_accuracy": 0.9026375885608062,
-    "cv_recall_macro": 0.9026375885608062
+    "cv_f1_macro": 0.7241468810873021,
+    "cv_accuracy": 0.7975820154228205,
+    "cv_balanced_accuracy": 0.712231602682648,
+    "cv_recall_macro": 0.712231602682648
+  },
+  "('telco_churn', 'RandomForest', '5')": {
+    "mejores_params": {
+      "classifier__n_estimators": 300,
+      "classifier__max_features": "sqrt"
+    },
+    "cv_f1_macro": 0.724054398261621,
+    "cv_accuracy": 0.7970878818817246,
+    "cv_balanced_accuracy": 0.7127611157112124,
+    "cv_recall_macro": 0.7127611157112124
   }
 }
