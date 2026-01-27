@@ -63,8 +63,8 @@ class PCSMOTE(Utils):
         percentil_entropia=40.0,
         # umbrales en proporción de k (para el criterio de proporción)
         umbral_pureza=80.0,
-        umbral_densidad = 0.5,
-        umbral_riesgo = 0.45,
+        umbral_densidad=0.50,
+        umbral_riesgo=0.45,
 
         grado_iso=None,
         # criterio de pureza: "proporcion" o "entropia"
