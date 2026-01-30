@@ -174,6 +174,7 @@ class PCSMOTE(Utils):
 
         # contadores de semillas candidatas (global, todas las clases)
         self.cantidad_semillas_candidatas = 0
+        self.cantidad_semillas_analizadas = 0
         self.detalle_semillas_candidatas_por_clase = []        
 
         self.X_sinteticas = None
@@ -207,6 +208,7 @@ class PCSMOTE(Utils):
         Se llama al comienzo de cada fit_resample (binario o multiclase).
         """
         self.cantidad_semillas_candidatas = 0
+        self.cantidad_semillas_analizadas = 0
         self.detalle_semillas_candidatas_por_clase = []
 
 
@@ -385,6 +387,8 @@ class PCSMOTE(Utils):
             )
 
         indices_positivos = np.where(y_binaria == 1)[0]
+
+        self.cantidad_semillas_analizadas += int(len(indices_positivos))
 
         cantidad_positivos = int(len(indices_positivos))
 
