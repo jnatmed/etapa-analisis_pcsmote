@@ -1,0 +1,107 @@
+
+🔍 Analizando dataset: US_CRIME
+🎯 Valores únicos del target: [-1, 1]
+📊 Distribución de clases:
+   - -1: 1844 (92.48%)
+   - 1: 150 (7.52%)
+✅ Clase minoritaria real: 1
+⚠️ Clase configurada como minoritaria: 1
+❌ Error al analizar us_crime: name 'graficar_distribucion_distancias_minoritarias' is not defined
+
+🔍 Analizando dataset: SHUTTLE
+🎯 Valores únicos del target: [1, 4, 5, 3, 2, 7, 6]
+📊 Distribución de clases:
+   - 1: 45586 (78.6%)
+   - 4: 8903 (15.35%)
+   - 5: 3267 (5.63%)
+   - 3: 171 (0.29%)
+   - 2: 50 (0.09%)
+   - 7: 13 (0.02%)
+   - 6: 10 (0.02%)
+✅ Clase minoritaria real: 6
+⚠️ Clase configurada como minoritaria: 6
+❌ Error al analizar shuttle: name 'graficar_distribucion_distancias_minoritarias' is not defined
+
+🔍 Analizando dataset: WDBC
+🎯 Valores únicos del target: ['B', 'M']
+📊 Distribución de clases:
+   - B: 357 (62.74%)
+   - M: 212 (37.26%)
+✅ Clase minoritaria real: M
+⚠️ Clase configurada como minoritaria: M
+❌ Error al analizar wdbc: name 'graficar_distribucion_distancias_minoritarias' is not defined
+
+🔍 Analizando dataset: GLASS
+🎯 Valores únicos del target: [2, 1, 7, 3, 5, 6]
+📊 Distribución de clases:
+   - 2: 76 (35.51%)
+   - 1: 70 (32.71%)
+   - 7: 29 (13.55%)
+   - 3: 17 (7.94%)
+   - 5: 13 (6.07%)
+   - 6: 9 (4.21%)
+✅ Clase minoritaria real: 6
+⚠️ Clase configurada como minoritaria: 6
+❌ Error al analizar glass: name 'graficar_distribucion_distancias_minoritarias' is not defined
+
+🔍 Analizando dataset: HEART
+🎯 Valores únicos del target: [0, 1, 2, 3, 4]
+📊 Distribución de clases:
+   - 0: 164 (54.13%)
+   - 1: 55 (18.15%)
+   - 2: 36 (11.88%)
+   - 3: 35 (11.55%)
+   - 4: 13 (4.29%)
+✅ Clase minoritaria real: 4
+⚠️ Clase configurada como minoritaria: 4
+❌ Error al analizar heart: name 'graficar_distribucion_distancias_minoritarias' is not defined
+
+🔍 Analizando dataset: ECOLI
+🎯 Valores únicos del target: ['cp', 'im', 'pp', 'imU', 'om', 'omL', 'imS', 'imL']
+📊 Distribución de clases:
+   - cp: 143 (42.56%)
+   - im: 77 (22.92%)
+   - pp: 52 (15.48%)
+   - imU: 35 (10.42%)
+   - om: 20 (5.95%)
+   - omL: 5 (1.49%)
+   - imS: 2 (0.6%)
+   - imL: 2 (0.6%)
+✅ Clase minoritaria real: imS
+⚠️ Clase configurada como minoritaria: imL
+❌ Error al analizar ecoli: name 'graficar_distribucion_distancias_minoritarias' is not defined
+
+🔍 Analizando dataset: PREDICT_FAULTS
+🎯 Valores únicos del target: ['No Failure', 'Heat Dissipation Failure', 'Power Failure', 'Overstrain Failure', 'Tool Wear Failure', 'Random Failures']
+📊 Distribución de clases:
+   - No Failure: 9652 (96.52%)
+   - Heat Dissipation Failure: 112 (1.12%)
+   - Power Failure: 95 (0.95%)
+   - Overstrain Failure: 78 (0.78%)
+   - Tool Wear Failure: 45 (0.45%)
+   - Random Failures: 18 (0.18%)
+✅ Clase minoritaria real: Random Failures
+⚠️ Clase configurada como minoritaria: Random Failures
+❌ Error al analizar predict_faults: name 'graficar_distribucion_distancias_minoritarias' is not defined
+
+🔍 Analizando dataset: GEAR_VIBRATION
+🎯 Valores únicos del target: ['no_fault', 'eccentricity', 'missing_tooth', 'root_crack', 'surface_fault', 'tooth_chipped_fault']
+📊 Distribución de clases:
+   - no_fault: 30 (33.33%)
+   - eccentricity: 12 (13.33%)
+   - missing_tooth: 12 (13.33%)
+   - root_crack: 12 (13.33%)
+   - surface_fault: 12 (13.33%)
+   - tooth_chipped_fault: 12 (13.33%)
+✅ Clase minoritaria real: eccentricity
+⚠️ Clase configurada como minoritaria: root_crack
+❌ Error al analizar gear_vibration: name 'graficar_distribucion_distancias_minoritarias' is not defined
+
+🔍 Analizando dataset: TELCO_CHURN
+🎯 Valores únicos del target: ['no-churn', 'churn']
+📊 Distribución de clases:
+   - no-churn: 5174 (73.46%)
+   - churn: 1869 (26.54%)
+✅ Clase minoritaria real: churn
+⚠️ Clase configurada como minoritaria: churn
+❌ Error al analizar telco_churn: name 'graficar_distribucion_distancias_minoritarias' is not defined
