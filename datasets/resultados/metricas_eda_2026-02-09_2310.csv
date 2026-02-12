@@ -1,0 +1,2 @@
+dataset,cantidad_muestras,cantidad_atributos,cantidad_clases,clase_minima_real,clase_mayoritaria_real,n_min,n_max,ratio_desequilibrio_max,entropia_clases,tamano_efectivo_clases,porcentaje_faltantes,porcentaje_duplicados,asimetria_mediana,curtosis_mediana,porcentaje_variables_con_normalidad_no_rechazada,correlacion_absoluta_maxima,porcentaje_pares_correlacion_mayor_0_9,rango_mediano_variables,rango_maximo_variables,sugerencia_escalado
+us_crime,1994,100,2,1,-1,150,1844,12.2933,0.267,1.306,0.0,0.0,0.969,1.123,0.0,0.996,0.99,1.0,1.0,RobustScaler

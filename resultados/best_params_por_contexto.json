@@ -1,92 +1,35 @@
 {
-  "('heart', 'RandomForest', '0')": {
-    "mejores_params": {
-      "classifier__n_estimators": 300,
-      "classifier__max_features": "sqrt"
-    },
-    "cv_f1_macro": 0.30209098467064005,
-    "cv_accuracy": 0.5988095238095238,
-    "cv_balanced_accuracy": 0.30888319088319094,
-    "cv_recall_macro": 0.30888319088319094
-  },
-  "('heart', 'RandomForest', '1')": {
+  "('predict_faults', 'RandomForest', '0')": {
     "mejores_params": {
       "classifier__n_estimators": 150,
       "classifier__max_features": "sqrt"
     },
-    "cv_f1_macro": 0.271574399884911,
-    "cv_accuracy": 0.5889184397163121,
-    "cv_balanced_accuracy": 0.2826905982905983,
-    "cv_recall_macro": 0.2826905982905983
+    "cv_f1_macro": 0.8647422545762691,
+    "cv_f1_weighted": 0.9832334089650127,
+    "cv_accuracy": 0.984625,
+    "cv_balanced_accuracy": 0.8100034891831511,
+    "cv_recall_macro": 0.8100034891831511
   },
-  "('heart', 'RandomForest', '3')": {
-    "mejores_params": {
-      "classifier__n_estimators": 300,
-      "classifier__max_features": "sqrt"
-    },
-    "cv_f1_macro": 0.28546232253295417,
-    "cv_accuracy": 0.596577243293247,
-    "cv_balanced_accuracy": 0.29484615384615387,
-    "cv_recall_macro": 0.29484615384615387
-  },
-  "('us_crime', 'RandomForest', '0')": {
+  "('predict_faults', 'RandomForest', '1')": {
     "mejores_params": {
       "classifier__n_estimators": 150,
       "classifier__max_features": "sqrt"
     },
-    "cv_f1_macro": 0.7133363542616962,
-    "cv_accuracy": 0.9410658307210031,
-    "cv_balanced_accuracy": 0.6619209039548022,
-    "cv_recall_macro": 0.6619209039548022
+    "cv_f1_macro": 0.8560515939089726,
+    "cv_f1_weighted": 0.9821953846123872,
+    "cv_accuracy": 0.9837101271719085,
+    "cv_balanced_accuracy": 0.8022628313341711,
+    "cv_recall_macro": 0.8022628313341711
   },
-  "('us_crime', 'RandomForest', '1')": {
+  "('predict_faults', 'RandomForest', '3')": {
     "mejores_params": {
       "classifier__n_estimators": 150,
       "classifier__max_features": "sqrt"
     },
-    "cv_f1_macro": 0.7459922539495089,
-    "cv_accuracy": 0.9454952782800884,
-    "cv_balanced_accuracy": 0.6939572165971809,
-    "cv_recall_macro": 0.6939572165971809
-  },
-  "('us_crime', 'RandomForest', '3')": {
-    "mejores_params": {
-      "classifier__n_estimators": 300,
-      "classifier__max_features": "sqrt"
-    },
-    "cv_f1_macro": 0.7492074703191335,
-    "cv_accuracy": 0.9469652364547446,
-    "cv_balanced_accuracy": 0.694354920441877,
-    "cv_recall_macro": 0.694354920441877
-  },
-  "('wdbc', 'RandomForest', '0')": {
-    "mejores_params": {
-      "classifier__n_estimators": 150,
-      "classifier__max_features": "log2"
-    },
-    "cv_f1_macro": 0.9599673571336063,
-    "cv_accuracy": 0.9626373626373625,
-    "cv_balanced_accuracy": 0.9594943240454075,
-    "cv_recall_macro": 0.9594943240454075
-  },
-  "('wdbc', 'RandomForest', '1')": {
-    "mejores_params": {
-      "classifier__n_estimators": 300,
-      "classifier__max_features": "sqrt"
-    },
-    "cv_f1_macro": 0.9570400941270751,
-    "cv_accuracy": 0.96,
-    "cv_balanced_accuracy": 0.9550363207483951,
-    "cv_recall_macro": 0.9550363207483951
-  },
-  "('wdbc', 'RandomForest', '3')": {
-    "mejores_params": {
-      "classifier__n_estimators": 300,
-      "classifier__max_features": "sqrt"
-    },
-    "cv_f1_macro": 0.9560568916037298,
-    "cv_accuracy": 0.9590909090909092,
-    "cv_balanced_accuracy": 0.9537824675324676,
-    "cv_recall_macro": 0.9537824675324676
+    "cv_f1_macro": 0.8613152887200549,
+    "cv_f1_weighted": 0.982789769487123,
+    "cv_accuracy": 0.9841470750496851,
+    "cv_balanced_accuracy": 0.8106907043073504,
+    "cv_recall_macro": 0.8106907043073504
   }
 }
