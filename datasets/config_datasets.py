@@ -202,7 +202,7 @@ config_datasets = {
 
     # ─────────────────────────────7) PREDICT_FAULTS ─────────────────────────────
     "predict_faults": {
-        "path": "../datasets/predict_faults/predictive_maintenance.csv",
+        "path": "../datasets/predict_faults/predictive_maintenance_multiclass.csv",
         "dataset_name": "predict_faults",
 
         "clase_minoria": "Random Failures",              # multiclase real
