@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.15)  18 FEB 2026 08:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.15)  18 FEB 2026 17:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -225,12 +225,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count306
 )
-(pasaje_a_tablas_shuttle.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported  on input line 8.
-)
+(pasaje_a_tablas_shuttle.aux)
 \openout1 = `pasaje_a_tablas_shuttle.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -249,6 +244,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported  on input line 15.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -305,10 +302,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5206 strings out of 469922
- 85459 string characters out of 5479171
- 497313 words of memory out of 5000000
- 32018 multiletter control sequences out of 15000+600000
+ 5207 strings out of 469922
+ 85463 string characters out of 5479171
+ 497256 words of memory out of 5000000
+ 32019 multiletter control sequences out of 15000+600000
  634443 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,18n,65p,303b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -320,9 +317,9 @@ iliaNatelloMedina\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0
 900.pk> <C:\Users\FamiliaNatelloMedina\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
 appen/ec/dpi600\ecrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmmi10.pfb>
-Output written on pasaje_a_tablas_shuttle.pdf (1 page, 71032 bytes).
+Output written on pasaje_a_tablas_shuttle.pdf (1 page, 71281 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,2 @@
+dataset,k,n_muestras,n_features,consistencia_vecinal_media,knn_bac_media,knn_bac_std,knn_f1_macro_media,knn_f1_macro_std,jaccard_media,jaccard_std,margen_local_media,margen_local_n_validos,margen_local_n_total
+shuttle,7,58000,9,0.9971600985221675,0.8600918663611538,0.04599838061317864,0.8490717616344193,0.03958795523474713,0.8836688871473355,0.1490222497815958,1.3491059920197188,381,58000
