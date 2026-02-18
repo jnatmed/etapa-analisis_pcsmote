@@ -1,0 +1,26 @@
+
+🔍 Analizando dataset: US_CRIME
+
+🔍 Analizando dataset: SHUTTLE
+
+🔍 Analizando dataset: WDBC
+
+🔍 Analizando dataset: GLASS
+
+🔍 Analizando dataset: HEART
+
+🔍 Analizando dataset: ECOLI
+
+🔍 Analizando dataset: PREDICT_FAULTS
+🎯 Valores únicos del target: ['No Failure', 'Failure']
+📊 Distribución de clases:
+   - No Failure: 9652 (96.52%)
+   - Failure: 348 (3.48%)
+✅ Clase minoritaria real: Failure
+⚠️ Clase configurada como minoritaria: Random Failures
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=7  | consistencia=0.9544 | kNN_BAC=0.5893±0.0191 | kNN_F1m=0.6364±0.0276 | Jaccard=0.9940±0.0383 | margen=1.0289 (validos=1201/10000)
+
+🔍 Analizando dataset: GEAR_VIBRATION
+
+🔍 Analizando dataset: TELCO_CHURN

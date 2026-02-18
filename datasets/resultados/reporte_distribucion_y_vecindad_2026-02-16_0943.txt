@@ -1,0 +1,26 @@
+
+🔍 Analizando dataset: US_CRIME
+
+🔍 Analizando dataset: SHUTTLE
+
+🔍 Analizando dataset: WDBC
+
+🔍 Analizando dataset: GLASS
+
+🔍 Analizando dataset: HEART
+
+🔍 Analizando dataset: ECOLI
+
+🔍 Analizando dataset: PREDICT_FAULTS
+
+🔍 Analizando dataset: GEAR_VIBRATION
+
+🔍 Analizando dataset: TELCO_CHURN
+🎯 Valores únicos del target: ['no-churn', 'churn']
+📊 Distribución de clases:
+   - no-churn: 5174 (73.46%)
+   - churn: 1869 (26.54%)
+✅ Clase minoritaria real: churn
+⚠️ Clase configurada como minoritaria: churn
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=7  | consistencia=0.7127 | kNN_BAC=0.6691±0.0092 | kNN_F1m=0.6818±0.0100 | Jaccard=0.9906±0.0515 | margen=1.0595 (validos=4706/7043)

@@ -1,0 +1,102 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{makecell} 
+\usepackage[legalpaper, margin=1.2cm, top=1.2cm, bottom=1.2cm]{geometry} 
+
+\renewcommand\theadfont{\bfseries} 
+\renewcommand\theadalign{cc}       
+
+\begin{document}
+
+\setcounter{table}{4}
+
+% --- TABLA 2: CONFIGURACIÓN DE HIPERPARÁMETROS (SHUTTLE) ---
+\begin{table}[ht]
+    \centering
+    \caption{Configuración de hiperparámetros para experimentos seleccionados (Shuttle)}
+    \label{tab:configuracion_shuttle}
+    \small
+    \begin{minipage}{0.85\textwidth} 
+        \centering
+        \begin{tabular}{cllcccccc}
+            \toprule
+            \thead{Exp.} & \thead{Grado IF*} & \thead{Técnica} & \thead{PR\_dist} & \thead{PR\_ries} & \thead{Criterio} & \thead{U\_den} & \thead{U\_ries} & \thead{Tipo\_P} \\
+            \midrule
+            \textbf{E1} & 1 (9828) & pcsmote & 70 & 30 & proporción & 025 & 030 & Upp040 \\
+            \textbf{E2} & 0 (9931) & pcsmote & 70 & 30 & proporción & 050 & 040 & Upp060 \\
+            \bottomrule
+        \end{tabular}
+        \vspace{1mm}
+        \begin{flushleft}
+            \footnotesize * Valor entre paréntesis indica semillas sintéticas candidatas detectadas.
+        \end{flushleft}
+    \end{minipage}
+\end{table}
+
+\vspace{0.4cm}
+
+% --- TABLA 3: RENDIMIENTO EN VALIDACIÓN CRUZADA (CON DISTRIBUCIÓN TRAIN) ---
+\begin{table}[ht]
+    \centering
+    \caption{Rendimiento en Validación Cruzada ($k$-fold CV) para el Caso Base (Shuttle)}
+    \label{tab:cv_shuttle}
+    \small
+    \begin{minipage}{0.85\textwidth}
+        \centering
+        \begin{tabular}{lccccc}
+            \toprule
+            \thead{Configuración} & \thead{Tamaño Train} & \thead{Tamaño Test} & \thead{F1\_M CV} & \thead{F1\_W CV} & \thead{Acc CV} \\
+            \midrule
+            Caso Base (Original) & 46400 & 11600 & 0,963 & 1,000 & 1,000 \\
+            \bottomrule
+        \end{tabular}
+        \vspace{1mm}
+        \begin{flushleft}
+            \footnotesize \textit{Nota.} El conjunto de entrenamiento (80\%) se compone de 36469 instancias de la Clase 1 (mayoritaria), y las clases minoritarias: Clase 4 (7122), Clase 5 (2614), Clase 3 (137), Clase 2 (40), Clase 7 (10) y Clase 6 (8).
+        \end{flushleft}
+    \end{minipage}
+\end{table}
+
+\vspace{0.4cm}
+
+% --- TABLA 4: RENDIMIENTO FINAL ORDENADO POR F1_M TEST (SHUTTLE) ---
+
+\begin{table}[ht]
+    \centering
+    \caption{Rendimiento final en conjunto de prueba ordenado por F1 Macro (Shuttle)}
+    \label{tab:resultados_shuttle_completa}
+    \small
+    \setlength{\tabcolsep}{4pt}
+    \begin{minipage}{\textwidth}
+        \centering
+        \begin{tabular}{cllcccccc}
+            \toprule
+            \thead{Ranking} & \thead{Grado IF} & \thead{Técnica} & \thead{Sem. Val.*} & \thead{Sintet.} & \thead{Train Final\\(Orig + Sintet.)} & \thead{F1\_M Test} & \thead{F1\_W Test} & \thead{Acc Test} \\
+            \midrule
+            -- & -- & \textbf{Caso Base} & -- & -- & 46400 & 0,855 & 1,000 & 1,000 \\
+            \midrule
+            1 & \multirow{4}{*}{Grado 1} & adasyn & -- & 206831 & 252763 & 0,991 & 1,000 & 1,000 \\
+            2 & & borderline & -- & 170731 & 216663 & 0,991 & 1,000 & 1,000 \\
+            3 & & smote & -- & 206796 & 252728 & 0,950 & 1,000 & 1,000 \\
+            4 & & \textbf{pcsmote (E1)} & \textbf{7685} & \textbf{206796} & \textbf{252728} & \textbf{0,950} & \textbf{1,000} & \textbf{1,000} \\
+            \midrule
+            1 & \multirow{4}{*}{Grado 0} & adasyn & -- & 208961 & 255361 & 0,952 & 1,000 & 1,000 \\
+            2 & & borderline & -- & 172454 & 218854 & 0,952 & 1,000 & 1,000 \\
+            3 & & smote & -- & 208883 & 255283 & 0,950 & 1,000 & 1,000 \\
+            4 & & \textbf{pcsmote (E2)} & \textbf{6756} & \textbf{135963} & \textbf{182363} & \textbf{0,857} & \textbf{1,000} & \textbf{1,000} \\
+            \bottomrule
+        \end{tabular}
+        \vspace{1mm}
+        \begin{flushleft}
+            \footnotesize * Semillas candidatas validadas en el conjunto de entrenamiento (train). Nota: Las técnicas están ordenadas por F1\_M Test dentro de cada bloque.
+        \end{flushleft}
+    \end{minipage}
+\end{table}
+
+\end{document}

@@ -1,0 +1,112 @@
+
+🔍 Analizando dataset: US_CRIME
+🎯 Valores únicos del target: [-1, 1]
+📊 Distribución de clases:
+   - -1: 1844 (92.48%)
+   - 1: 150 (7.52%)
+✅ Clase minoritaria real: 1
+⚠️ Clase configurada como minoritaria: 1
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=7  | consistencia=0.9128 | kNN_BAC=0.6243±0.0447 | kNN_F1m=0.6675±0.0565 | Jaccard=0.9100±0.1290 | margen=1.0099 (validos=413/1994)
+
+🔍 Analizando dataset: SHUTTLE
+🎯 Valores únicos del target: [1, 4, 5, 3, 2, 7, 6]
+📊 Distribución de clases:
+   - 1: 45586 (78.6%)
+   - 4: 8903 (15.35%)
+   - 5: 3267 (5.63%)
+   - 3: 171 (0.29%)
+   - 2: 50 (0.09%)
+   - 7: 13 (0.02%)
+   - 6: 10 (0.02%)
+✅ Clase minoritaria real: 6
+⚠️ Clase configurada como minoritaria: 6
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=7  | consistencia=0.9972 | kNN_BAC=0.8601±0.0460 | kNN_F1m=0.8491±0.0396 | Jaccard=0.8837±0.1490 | margen=1.3491 (validos=381/58000)
+
+🔍 Analizando dataset: WDBC
+🎯 Valores únicos del target: ['B', 'M']
+📊 Distribución de clases:
+   - B: 357 (62.74%)
+   - M: 212 (37.26%)
+✅ Clase minoritaria real: M
+⚠️ Clase configurada como minoritaria: M
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=7  | consistencia=0.9066 | kNN_BAC=0.9169±0.0319 | kNN_F1m=0.9215±0.0250 | Jaccard=0.9982±0.0209 | margen=1.1008 (validos=126/569)
+
+🔍 Analizando dataset: GLASS
+🎯 Valores únicos del target: [2, 1, 7, 3, 5, 6]
+📊 Distribución de clases:
+   - 2: 76 (35.51%)
+   - 1: 70 (32.71%)
+   - 7: 29 (13.55%)
+   - 3: 17 (7.94%)
+   - 5: 13 (6.07%)
+   - 6: 9 (4.21%)
+✅ Clase minoritaria real: 6
+⚠️ Clase configurada como minoritaria: 6
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=7  | consistencia=0.6055 | kNN_BAC=0.4732±0.0487 | kNN_F1m=0.4637±0.0651 | Jaccard=0.9335±0.1195 | margen=1.1636 (validos=153/214)
+
+🔍 Analizando dataset: HEART
+🎯 Valores únicos del target: [0, 1, 2, 3, 4]
+📊 Distribución de clases:
+   - 0: 164 (54.13%)
+   - 1: 55 (18.15%)
+   - 2: 36 (11.88%)
+   - 3: 35 (11.55%)
+   - 4: 13 (4.29%)
+✅ Clase minoritaria real: 4
+⚠️ Clase configurada como minoritaria: 4
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=7  | consistencia=0.4064 | kNN_BAC=0.2159±0.0283 | kNN_F1m=0.1908±0.0373 | Jaccard=0.9967±0.0286 | margen=1.0130 (validos=238/303)
+
+🔍 Analizando dataset: ECOLI
+🎯 Valores únicos del target: ['cp', 'im', 'pp', 'imU', 'om', 'omL', 'imL', 'imS']
+📊 Distribución de clases:
+   - cp: 143 (42.56%)
+   - im: 77 (22.92%)
+   - pp: 52 (15.48%)
+   - imU: 35 (10.42%)
+   - om: 20 (5.95%)
+   - omL: 5 (1.49%)
+   - imL: 2 (0.6%)
+   - imS: 2 (0.6%)
+✅ Clase minoritaria real: imL
+⚠️ Clase configurada como minoritaria: imL
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=7  | consistencia=0.7925 | kNN_BAC=0.7642±0.0839 | kNN_F1m=0.7485±0.0928 | Jaccard=0.7562±0.1752 | margen=1.0610 (validos=165/336)
+
+🔍 Analizando dataset: PREDICT_FAULTS
+🎯 Valores únicos del target: ['No Failure', 'Failure']
+📊 Distribución de clases:
+   - No Failure: 9652 (96.52%)
+   - Failure: 348 (3.48%)
+✅ Clase minoritaria real: Failure
+⚠️ Clase configurada como minoritaria: Random Failures
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=7  | consistencia=0.9544 | kNN_BAC=0.5893±0.0191 | kNN_F1m=0.6364±0.0276 | Jaccard=0.9940±0.0383 | margen=1.0289 (validos=1201/10000)
+
+🔍 Analizando dataset: GEAR_VIBRATION
+🎯 Valores únicos del target: ['no_fault', 'eccentricity', 'missing_tooth', 'root_crack', 'surface_fault', 'tooth_chipped_fault']
+📊 Distribución de clases:
+   - no_fault: 30 (33.33%)
+   - eccentricity: 12 (13.33%)
+   - missing_tooth: 12 (13.33%)
+   - root_crack: 12 (13.33%)
+   - surface_fault: 12 (13.33%)
+   - tooth_chipped_fault: 12 (13.33%)
+✅ Clase minoritaria real: eccentricity
+⚠️ Clase configurada como minoritaria: root_crack
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=7  | consistencia=0.2746 | kNN_BAC=0.1278±0.0421 | kNN_F1m=0.0776±0.0234 | Jaccard=0.8401±0.1559 | margen=4.8602 (validos=82/90)
+
+🔍 Analizando dataset: TELCO_CHURN
+🎯 Valores únicos del target: ['no-churn', 'churn']
+📊 Distribución de clases:
+   - no-churn: 5174 (73.46%)
+   - churn: 1869 (26.54%)
+✅ Clase minoritaria real: churn
+⚠️ Clase configurada como minoritaria: churn
+🧭 Diagnóstico de vecindad (métrica euclídea sobre X cargado):
+   k=7  | consistencia=0.7127 | kNN_BAC=0.6691±0.0092 | kNN_F1m=0.6818±0.0100 | Jaccard=0.9906±0.0515 | margen=1.0595 (validos=4706/7043)

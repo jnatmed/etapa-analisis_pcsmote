@@ -1,0 +1,354 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.15)  15 FEB 2026 21:13
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./generacion_imagenes.tex
+(generacion_imagenes.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-04-29>
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count272
+\c@section=\count273
+\c@subsection=\count274
+\c@subsubsection=\count275
+\c@paragraph=\count276
+\c@subparagraph=\count277
+\c@figure=\count278
+\c@table=\count279
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen146
+)
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/05/14 v25.9 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
+\babel@savecnt=\count280
+\U@D=\dimen147
+\l@unhyphenated=\language79
+
+(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count281
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Program Files\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+
+(C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+)
+\es@quottoks=\toks19
+\es@quotdepth=\count282
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen150
+\captionmargin=\dimen151
+\caption@leftmargin=\dimen152
+\caption@rightmargin=\dimen153
+\caption@width=\dimen154
+\caption@indent=\dimen155
+\caption@parindent=\dimen156
+\caption@hangindent=\dimen157
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count283
+\c@continuedfloat=\count284
+)
+(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count285
+\Gm@cntv=\count286
+\c@Gm@tempcnt=\count287
+\Gm@bindingoffset=\dimen158
+\Gm@wd@mp=\dimen159
+\Gm@odd@mp=\dimen160
+\Gm@even@mp=\dimen161
+\Gm@layoutwidth=\dimen162
+\Gm@layoutheight=\dimen163
+\Gm@layouthoffset=\dimen164
+\Gm@layoutvoffset=\dimen165
+\Gm@dimlist=\toks21
+
+(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count288
+)
+(generacion_imagenes.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported  on input line 8.
+
+
+LaTeX Warning: Label `fig:mi_grafico_1' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_grafico_2' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_grafico_3' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_grafico_4' multiply defined.
+
+)
+\openout1 = `generacion_imagenes.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
+ (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count289
+\scratchdimen=\dimen166
+\scratchbox=\box53
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen167
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks23
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: legalpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 897.969pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=1011.78pt
+* \textwidth=500.484pt
+* \textheight=897.969pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<radios/shuttle-1_radio.png, id=1, 859.2903pt x 498.663pt>
+File: radios/shuttle-1_radio.png Graphic file (type png)
+<use radios/shuttle-1_radio.png>
+Package pdftex.def Info: radios/shuttle-1_radio.png  used on input line 28.
+(pdftex.def)             Requested size: 500.484pt x 290.44217pt.
+<radios/shuttle-2_radio.png, id=3, 859.2903pt x 498.663pt>
+File: radios/shuttle-2_radio.png Graphic file (type png)
+<use radios/shuttle-2_radio.png>
+Package pdftex.def Info: radios/shuttle-2_radio.png  used on input line 40.
+(pdftex.def)             Requested size: 500.484pt x 290.44217pt.
+<radios/telco_churn_radio.png, id=4, 859.2903pt x 498.663pt>
+File: radios/telco_churn_radio.png Graphic file (type png)
+<use radios/telco_churn_radio.png>
+Package pdftex.def Info: radios/telco_churn_radio.png  used on input line 53.
+(pdftex.def)             Requested size: 500.484pt x 290.44217pt.
+<radios/us_crime_radio.png, id=5, 859.2903pt x 498.663pt>
+File: radios/us_crime_radio.png Graphic file (type png)
+<use radios/us_crime_radio.png>
+Package pdftex.def Info: radios/us_crime_radio.png  used on input line 65.
+(pdftex.def)             Requested size: 500.484pt x 290.44217pt.
+<radios/predict_faults_radio.png, id=6, 859.2903pt x 498.663pt>
+File: radios/predict_faults_radio.png Graphic file (type png)
+<use radios/predict_faults_radio.png>
+Package pdftex.def Info: radios/predict_faults_radio.png  used on input line 77
+.
+(pdftex.def)             Requested size: 500.484pt x 290.44217pt.
+<purezas/shuttle_dotbox_Pureza.png, id=7, 910.08578pt x 496.08192pt>
+File: purezas/shuttle_dotbox_Pureza.png Graphic file (type png)
+<use purezas/shuttle_dotbox_Pureza.png>
+Package pdftex.def Info: purezas/shuttle_dotbox_Pureza.png  used on input line 
+91.
+(pdftex.def)             Requested size: 500.484pt x 272.81561pt.
+<purezas/telco_churn_dotbox_Pureza.png, id=8, 910.08578pt x 496.08192pt>
+File: purezas/telco_churn_dotbox_Pureza.png Graphic file (type png)
+<use purezas/telco_churn_dotbox_Pureza.png>
+Package pdftex.def Info: purezas/telco_churn_dotbox_Pureza.png  used on input l
+ine 103.
+(pdftex.def)             Requested size: 500.484pt x 272.81561pt.
+<purezas/us_crime_dotbox_Pureza.png, id=9, 910.602pt x 496.08192pt>
+File: purezas/us_crime_dotbox_Pureza.png Graphic file (type png)
+<use purezas/us_crime_dotbox_Pureza.png>
+Package pdftex.def Info: purezas/us_crime_dotbox_Pureza.png  used on input line
+ 115.
+(pdftex.def)             Requested size: 500.484pt x 272.65665pt.
+<purezas/predict_faults_dotbox_Pureza.png, id=10, 910.08578pt x 496.08192pt>
+File: purezas/predict_faults_dotbox_Pureza.png Graphic file (type png)
+<use purezas/predict_faults_dotbox_Pureza.png>
+Package pdftex.def Info: purezas/predict_faults_dotbox_Pureza.png  used on inpu
+t line 127.
+(pdftex.def)             Requested size: 500.484pt x 272.81561pt.
+<radares/shuttle__radar_configs.png, id=11, 705.14871pt x 402.13094pt>
+File: radares/shuttle__radar_configs.png Graphic file (type png)
+<use radares/shuttle__radar_configs.png>
+Package pdftex.def Info: radares/shuttle__radar_configs.png  used on input line
+ 140.
+(pdftex.def)             Requested size: 500.484pt x 285.42291pt.
+<radares/telco_churn__radar_configs.png, id=12, 705.14871pt x 402.13094pt>
+File: radares/telco_churn__radar_configs.png Graphic file (type png)
+<use radares/telco_churn__radar_configs.png>
+Package pdftex.def Info: radares/telco_churn__radar_configs.png  used on input 
+line 151.
+(pdftex.def)             Requested size: 500.484pt x 285.42291pt.
+<radares/us_crime__radar_configs.png, id=13, 686.04878pt x 402.13094pt>
+File: radares/us_crime__radar_configs.png Graphic file (type png)
+<use radares/us_crime__radar_configs.png>
+Package pdftex.def Info: radares/us_crime__radar_configs.png  used on input lin
+e 162.
+(pdftex.def)             Requested size: 500.484pt x 293.36292pt.
+<radares/predict_faults__radar_configs.png, id=14, 705.14871pt x 402.13094pt>
+File: radares/predict_faults__radar_configs.png Graphic file (type png)
+<use radares/predict_faults__radar_configs.png>
+Package pdftex.def Info: radares/predict_faults__radar_configs.png  used on inp
+ut line 173.
+(pdftex.def)             Requested size: 500.484pt x 285.42291pt.
+
+
+[1
+
+{C:/Users/FamiliaNatelloMedina/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map
+} <./radios/shuttle-1_radio.png> <./radios/shuttle-2_radio.png>]
+
+[2 <./radios/telco_churn_radio.png> <./radios/us_crime_radio.png>]
+
+[3 <./radios/predict_faults_radio.png> <./purezas/shuttle_dotbox_Pureza.png>]
+
+[4 <./purezas/telco_churn_dotbox_Pureza.png> <./purezas/us_crime_dotbox_Pureza.
+png>]
+
+[5 <./purezas/predict_faults_dotbox_Pureza.png> <./radares/shuttle__radar_confi
+gs.png>]
+
+[6 <./radares/telco_churn__radar_configs.png> <./radares/us_crime__radar_config
+s.png>]
+
+[7 <./radares/predict_faults__radar_configs.png>] (generacion_imagenes.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-04-29>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4990 strings out of 469922
+ 86350 string characters out of 5479171
+ 477740 words of memory out of 5000000
+ 31818 multiletter control sequences out of 15000+600000
+ 629050 words of font info for 43 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,6n,65p,283b,377s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\FamiliaNatelloMedina\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm1000.pk> <C:\Users\FamiliaNatelloMedina\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\FamiliaNatelloMedina\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk>
+Output written on generacion_imagenes.pdf (7 pages, 1196994 bytes).
+PDF statistics:
+ 122 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+

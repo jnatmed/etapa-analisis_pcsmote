@@ -1,0 +1,102 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{makecell} 
+\usepackage[legalpaper, margin=1.2cm, top=1.2cm, bottom=1.2cm]{geometry} 
+
+\renewcommand\theadfont{\bfseries} 
+\renewcommand\theadalign{cc}       
+
+\begin{document}
+
+\setcounter{table}{7}
+
+% --- TABLA 2: CONFIGURACIÓN DE HIPERPARÁMETROS ---
+\begin{table}[ht]
+    \centering
+    \caption{Configuración de hiperparámetros para experimentos seleccionados (Telco Churn)}
+    \label{tab:configuracion_telco_churn}
+    \small
+    \begin{minipage}{0.85\textwidth} 
+        \centering
+        \begin{tabular}{cllcccccc}
+            \toprule
+            \thead{Exp.} & \thead{Grado IF*} & \thead{Técnica} & \thead{PR\_dist} & \thead{PR\_ries} & \thead{Criterio} & \thead{U\_den} & \thead{U\_ries} & \thead{Tipo\_P} \\
+            \midrule
+            \textbf{E1} & 1 (1480) & pcsmote & 85 & 30 & proporción & 060 & 040 & Upp060 \\
+            \textbf{E2} & 0 (1495) & pcsmote & 85 & 40 & entropía & 060 & 045 & PE70 \\
+            \bottomrule
+        \end{tabular}
+        \vspace{1mm}
+        \begin{flushleft}
+            \footnotesize * Valor entre paréntesis indica semillas sintéticas candidatas detectadas.
+        \end{flushleft}
+    \end{minipage}
+\end{table}
+
+\vspace{0.4cm}
+
+% --- TABLA 3: RENDIMIENTO EN VALIDACIÓN CRUZADA ---
+\begin{table}[ht]
+    \centering
+    \caption{Rendimiento en Validación Cruzada ($k$-fold CV) para el Caso Base (Telco Churn)}
+    \label{tab:cv_telco_churn}
+    \small
+    \begin{minipage}{0.85\textwidth}
+        \centering
+        \begin{tabular}{lccccc}
+            \toprule
+            \thead{Configuración} & \thead{Tamaño Train} & \thead{Tamaño Test} & \thead{F1\_M CV} & \thead{F1\_W CV} & \thead{Acc CV} \\
+            \midrule
+            Caso Base (Original) & 5634 & 1409 & 0,711 & 0,782 & 0,790 \\
+            \bottomrule
+        \end{tabular}
+        \vspace{1mm}
+        \begin{flushleft}
+            \footnotesize \textit{Nota.} El conjunto de entrenamiento (80\%) presenta un fuerte desbalance de clases: 4139 instancias pertenecen a la clase mayoritaria (-1) y solo 1495 a la clase minoritaria (1).
+        \end{flushleft}
+    \end{minipage}
+\end{table}
+
+\vspace{0.4cm}
+
+% --- TABLA 4: RENDIMIENTO FINAL ORDENADO POR F1_M TEST ---
+\begin{table}[ht]
+    \centering
+    \caption{Rendimiento final en conjunto de prueba ordenado por F1 Macro (Telco Churn)}
+    \label{tab:resultados_telco_churn_ordenados}
+    \small
+    \setlength{\tabcolsep}{4pt}
+    \begin{minipage}{\textwidth}
+        \centering
+        \begin{tabular}{cllcccccc}
+            \toprule
+            \thead{Ranking} & \thead{Grado IF} & \thead{Técnica} & \thead{Sem. Val.*} & \thead{Sintet.} & \thead{Train Final\\(Orig + Sintet.)} & \thead{F1\_M Test} & \thead{F1\_W Test} & \thead{Acc Test} \\
+            \midrule
+            -- & -- & \textbf{Caso Base} & -- & -- & 5634 & 0,705 & 0,779 & 0,789 \\
+            \midrule
+            1 & \multirow{4}{*}{\shortstack{Grado 1 \\ (candidatas: \\ 1480)}} & \textbf{pcsmote (E1)} & \textbf{495} & \textbf{2617} & \textbf{8194} & \textbf{0,715} & \textbf{0,783} & \textbf{0,788} \\
+            2 & & smote & -- & 2617 & 8194 & 0,713 & 0,776 & 0,776 \\
+            3 & & adasyn & -- & 2535 & 8112 & 0,712 & 0,776 & 0,771 \\
+            4 & & borderline & -- & 2617 & 8194 & 0,703 & 0,766 & 0,763 \\
+            \midrule
+            1 & \multirow{4}{*}{\shortstack{Grado 0 \\ (candidatas: \\ 1495)}} & smote & -- & 2644 & 8278 & 0,711 & 0,782 & 0,790 \\
+            2 & & adasyn & -- & 2594 & 8228 & 0,710 & 0,773 & 0,771 \\
+            3 & & \textbf{pcsmote (E2)} & \textbf{897} & \textbf{2644} & \textbf{8278} & \textbf{0,708} & \textbf{0,775} & \textbf{0,778} \\
+            4 & & borderline & -- & 2644 & 8278 & 0,708 & 0,770 & 0,768 \\
+            \bottomrule
+        \end{tabular}
+        \vspace{1mm}
+        \begin{flushleft}
+            \footnotesize * Semillas candidatas validadas en train. Nota: Las técnicas están ordenadas por F1\_M Test dentro de cada bloque de filtrado para mostrar el ranking real de pcsmote.
+        \end{flushleft}
+    \end{minipage}
+\end{table}
+
+
+\end{document}

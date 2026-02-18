@@ -1,0 +1,18 @@
+
+🔍 Analizando dataset: US_CRIME
+
+🔍 Analizando dataset: SHUTTLE
+
+🔍 Analizando dataset: WDBC
+
+🔍 Analizando dataset: GLASS
+
+🔍 Analizando dataset: HEART
+
+🔍 Analizando dataset: ECOLI
+
+🔍 Analizando dataset: PREDICT_FAULTS
+
+🔍 Analizando dataset: GEAR_VIBRATION
+
+🔍 Analizando dataset: TELCO_CHURN

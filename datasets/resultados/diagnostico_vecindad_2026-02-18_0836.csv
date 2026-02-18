@@ -1,0 +1,2 @@
+dataset,k,n_muestras,n_features,consistencia_vecinal_media,knn_bac_media,knn_bac_std,knn_f1_macro_media,knn_f1_macro_std,jaccard_media,jaccard_std,margen_local_media,margen_local_n_validos,margen_local_n_total
+predict_faults,7,10000,5,0.9543571428571429,0.5893364283209646,0.019065404465524773,0.63638872693796,0.027640859655849705,0.994,0.03826416619556036,1.0289019616191168,1201,10000

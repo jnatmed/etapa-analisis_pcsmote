@@ -1,0 +1,107 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{makecell} 
+\usepackage[legalpaper, margin=1.2cm, top=1.2cm, bottom=1.2cm]{geometry} 
+
+\renewcommand\theadfont{\bfseries} 
+\renewcommand\theadalign{cc}       
+
+\begin{document}
+
+\setcounter{table}{10}
+
+% --- TABLA 2: CONFIGURACIÓN DE HIPERPARÁMETROS (GANADORES PCSMOTE) ---
+\begin{table}[ht]
+    \centering
+    \caption{Configuración de hiperparámetros para experimentos seleccionados (US Crime)}
+    \label{tab:configuracion_us_crime_ganadores}
+    \small
+    \begin{minipage}{0.85\textwidth} 
+        \centering
+        \begin{tabular}{cllcccccc}
+            \toprule
+            \thead{Exp.} & \thead{Grado IF*} & \thead{Técnica} & \thead{PR\_dist} & \thead{PR\_ries} & \thead{Criterio} & \thead{U\_den} & \thead{U\_ries} & \thead{Tipo\_P} \\
+            \midrule
+            \textbf{E1} & 0 (120) & pcsmote & 85 & 40 & entropía & 0.45 & 0.45 & PE80 \\
+            \textbf{E2} & 1 (118) & pcsmote & 85 & 40 & entropía & 0.35 & 0.45 & PE60 \\
+            \textbf{E3} & 3 (116) & pcsmote & 90 & 45 & proporción & 0.35 & 0.50 & Upp060 \\
+            \bottomrule
+        \end{tabular}
+        \vspace{1mm}
+        \begin{flushleft}
+            \footnotesize * Valor entre paréntesis indica semillas sintéticas candidatas detectadas.
+        \end{flushleft}
+    \end{minipage}
+\end{table}
+
+\vspace{0.3cm}
+
+% --- TABLA 3: RENDIMIENTO EN VALIDACIÓN CRUZADA ---
+\begin{table}[ht]
+    \centering
+    \caption{Rendimiento en Validación Cruzada ($k$-fold CV) para el Caso Base (US Crime)}
+    \label{tab:cv_us_crime_nota}
+    \small
+    \begin{minipage}{0.85\textwidth}
+        \centering
+        \begin{tabular}{lccccc}
+            \toprule
+            \thead{Configuración} & \thead{Tamaño Train} & \thead{Tamaño Test} & \thead{F1\_M CV} & \thead{F1\_W CV} & \thead{Acc CV} \\
+            \midrule
+            Caso Base (Original) & 1595 & 399 & 0,713 & 0,930 & 0,941 \\
+            \bottomrule
+        \end{tabular}
+        \vspace{1mm}
+        \begin{flushleft}
+            \footnotesize \textit{Nota.} El conjunto de entrenamiento (80\%) presenta un fuerte desbalance de clases: 1475 instancias pertenecen a la clase mayoritaria (-1) y solo 120 a la clase minoritaria (1).
+        \end{flushleft}
+    \end{minipage}
+\end{table}
+
+\vspace{0.3cm}
+
+% --- TABLA 4: RENDIMIENTO FINAL COMPARATIVO (CON CLÁSICOS) ---
+\begin{table}[ht]
+    \centering
+    \caption{Rendimiento final: Comparativa de pcsmote vs. Técnicas Clásicas (US Crime)}
+    \label{tab:resultados_us_crime_comparativa}
+    \small
+    \setlength{\tabcolsep}{4pt}
+    \begin{minipage}{\textwidth}
+        \centering
+        \begin{tabular}{cllcccccc}
+            \toprule
+            \thead{Exp.} & \thead{Grado IF} & \thead{Técnica} & \thead{Sem. Val.*} & \thead{Sintet.} & \thead{Train Final\\(Orig + Sintet.)} & \thead{F1\_M Test} & \thead{F1\_W Test} & \thead{Acc Test} \\
+            \midrule
+            -- & -- & \textbf{Caso Base} & -- & -- & 1595 & 0,765 & 0,940 & 0,945 \\
+            \midrule
+            \textbf{E1} & \multirow{4}{*}{\shortstack{Grado 0 \\ (candidatas: \\ 120)}} & \textbf{pcsmote} & \textbf{21} & \textbf{1355} & \textbf{2950} & \textbf{0,801} & \textbf{0,948} & \textbf{0,952} \\
+            -- & & adasyn & -- & 1368 & 2963 & 0,752 & 0,928 & 0,925 \\
+            -- & & smote & -- & 1355 & 2950 & 0,736 & 0,923 & 0,920 \\
+            -- & & borderline & -- & 1355 & 2950 & 0,725 & 0,923 & 0,922 \\
+            \midrule
+            \textbf{E2} & \multirow{3}{*}{\shortstack{Grado 1 \\ (candidatas: \\ 118)}} & \textbf{pcsmote} & \textbf{2} & \textbf{1342} & \textbf{2920} & \textbf{0,788} & \textbf{0,944} & \textbf{0,947} \\
+            -- & & borderline & -- & 1342 & 2920 & 0,719 & 0,918 & 0,915 \\
+            -- & & smote & -- & 1342 & 2920 & 0,747 & 0,926 & 0,922 \\
+            \midrule
+            \textbf{E3} & \multirow{4}{*}{\shortstack{Grado 3 \\ (candidatas: \\ 116)}} & \textbf{pcsmote} & \textbf{6} & \textbf{1314} & \textbf{2860} & \textbf{0,742} & \textbf{0,931} & \textbf{0,935} \\
+            -- & & smote & -- & 1314 & 2860 & 0,715 & 0,916 & 0,912 \\
+            -- & & adasyn & -- & 1304 & 2850 & 0,725 & 0,917 & 0,910 \\
+            -- & & borderline & -- & 1314 & 2860 & 0,707 & 0,913 & 0,907 \\
+            \bottomrule
+        \end{tabular}
+        \vspace{1mm}
+        \begin{flushleft}
+            \footnotesize * Semillas candidatas validadas en el conjunto de entrenamiento (train). Nota: Los experimentos E1, E2 y E3 resaltan la variante de pcsmote con mejor desempeño para cada nivel de filtrado.
+        \end{flushleft}
+    \end{minipage}
+\end{table}
+
+
+\end{document}

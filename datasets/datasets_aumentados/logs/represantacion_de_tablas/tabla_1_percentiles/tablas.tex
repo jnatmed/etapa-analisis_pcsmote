@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} % Mejor manejo de acentos
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{booktabs} 
+\usepackage{caption}  
+\usepackage{amsmath}  % Necesario para \text{}
+
+\begin{document}
+
+\begin{table}[ht]
+    \centering
+    \caption{Auto-calibración de percentiles por dataset y parámetros}
+    \label{tab:autocalibracion}
+    \small 
+    \begin{tabular}{lcccc}
+        \toprule
+        \textbf{Datasets / Hiperparámetros} & \textbf{Shuttle} & \textbf{Telco Churn} & \textbf{Predict Faults} & \textbf{US Crime} \\
+        \midrule
+        $PR_{\text{dens}}$ (Radio densidad) & 70 (medio) & 85 (alto) & 85 (alto) & 85 (alto) \\
+        Radio físico densidad & 0,40 $\sim$ 981* & 1,43 & 0,582 & 18,2 \\
+        $PR_{\text{riesgo}}$ (Radio riesgo) & 30 (muy bajo) & 40 (bajo) & 50 (medio) & 40 (bajo) \\
+        Radio físico riesgo & 0,2 $\sim$ 503* & 1 & 0,319 & 6,8 \\
+        \addlinespace
+        $PR_{\text{entropía}}$ & -- & 70 & -- & 80 \\
+        Valor entropía & -- & 0,59 & -- & 0,86 \\
+        Criterio pureza & proporción & entropía & proporción & entropía \\
+        \addlinespace
+        Densidad (umbral densidad) & 25 & 60 & 45 & 45 \\
+        Riesgo (umbral riesgo) & 30 & 45 & 55 & 45 \\
+        Pureza (umbral proporción) & 40 & -- & 45 & -- \\
+        Grado de Isolation Forest & 1 & 0 & 0 & 0 \\
+        \bottomrule
+        \multicolumn{5}{l}{\textit{Nota.} * Rango por clase.}
+    \end{tabular}
+\end{table}
+
+\end{document}
