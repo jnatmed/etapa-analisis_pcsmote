@@ -21,14 +21,14 @@
 % --- TABLA 2: CONFIGURACIÓN DE HIPERPARÁMETROS ---
 \begin{table}[ht]
     \centering
-    \caption{Configuración de hiperparámetros por técnica y grado de filtrado (Predict Faults)}
+    \caption{Configuración de hiperparámetros por técnica y Umbral de limpieza (Predict Faults)}
     \label{tab:configuracion_identificada}
     \small
     \begin{minipage}{0.85\textwidth} 
         \centering
         \begin{tabular}{cllcccccc}
             \toprule
-            \thead{Exp.} & \thead{Grado IF*} & \thead{Técnica} & \thead{PR\_dist} & \thead{PR\_ries} & \thead{Criterio} & \thead{U\_den} & \thead{U\_ries} & \thead{Tipo\_P} \\
+            \thead{Exp.} & \thead{Umbral IF*} & \thead{Técnica} & \thead{PR\_dist} & \thead{PR\_ries} & \thead{Criterio} & \thead{U\_den} & \thead{U\_ries} & \thead{Tipo\_P} \\
             \midrule
             \textbf{E1} & \multirow{2}{*}{0 (278)} & \textbf{pcsmote} & \textbf{85} & \textbf{40} & \textbf{entropía} & \textbf{050} & \textbf{045} & \textbf{PE60} \\
             \textbf{E2} & & pcsmote & 85  & 50  & proporción  & 050  & 055  & Upp045  \\
@@ -83,23 +83,23 @@
         \centering
         \begin{tabular}{cllcccccc}
             \toprule
-            \thead{Exp.} & \thead{Grado IF} & \thead{Técnica} & \thead{Semillas\\Validadas*} & \thead{Sintet.} & \thead{Train Final\\(Orig + Sintet.)} & \thead{F1\_M\\Test} & \thead{F1\_W\\Test} & \thead{Acc\\Test} \\
+            \thead{Exp.} & \thead{Umbral IF} & \thead{Técnica} & \thead{Semillas\\Validadas*} & \thead{Sintet.} & \thead{Train Final\\(Orig + Sintet.)} & \thead{F1\_M\\Test} & \thead{F1\_W\\Test} & \thead{Acc\\Test} \\
             \midrule
             -- & \textbf{Caso Base} & -- & -- & -- & 8000 & 0,856 & 0,982 & 0,983 \\
             \midrule
-            \textbf{E1} & \multirow{5}{*}{\shortstack{Grado 0 \\ (candidatas: \\ 278)}} & \textbf{pcsmote} & \textbf{25} & \textbf{7444} & \textbf{15444} & \textbf{0,828} & \textbf{0,978} & \textbf{0,980} \\
+            \textbf{E1} & \multirow{5}{*}{\shortstack{Umbral 0 \\ (candidatas: \\ 278)}} & \textbf{pcsmote} & \textbf{25} & \textbf{7444} & \textbf{15444} & \textbf{0,828} & \textbf{0,978} & \textbf{0,980} \\
             \textbf{E2} & & pcsmote & 56 & 7444 & 15444 & 0,822 & 0,978 & 0,980 \\
             -- & & borderline & -- & 7444 & 15444 & 0,825 & 0,976 & 0,977 \\
             -- & & adasyn & -- & 7453 & 15453 & 0,813 & 0,974 & 0,973 \\
             -- & & smote & -- & 7444 & 15444 & 0,808 & 0,973 & 0,973 \\
             \midrule
-            \textbf{E3} & \multirow{5}{*}{\shortstack{Grado 1 \\ (candidatas: \\ 275)}} & \textbf{pcsmote} & \textbf{24} & \textbf{7369} & \textbf{15288} & \textbf{0,839} & \textbf{0,979} & \textbf{0,981} \\
+            \textbf{E3} & \multirow{5}{*}{\shortstack{Umbral 1 \\ (candidatas: \\ 275)}} & \textbf{pcsmote} & \textbf{24} & \textbf{7369} & \textbf{15288} & \textbf{0,839} & \textbf{0,979} & \textbf{0,981} \\
             \textbf{E4} & & pcsmote & 54 & 7369 & 15288 & 0,828 & 0,978 & 0,980 \\
             -- & & borderline & -- & 7369 & 15288 & 0,827 & 0,976 & 0,976 \\
             -- & & smote & -- & 7369 & 15288 & 0,829 & 0,976 & 0,975 \\
             -- & & adasyn & -- & 7380 & 15299 & 0,815 & 0,974 & 0,973 \\
             \midrule
-            \textbf{E5} & \shortstack{Grado 3 \\ (candidatas: \\ 269)} & \textbf{pcsmote} & \textbf{53} & \textbf{7221} & \textbf{14980} & \textbf{0,839} & \textbf{0,979} & \textbf{0,980} \\
+            \textbf{E5} & \shortstack{Umbral 3 \\ (candidatas: \\ 269)} & \textbf{pcsmote} & \textbf{53} & \textbf{7221} & \textbf{14980} & \textbf{0,839} & \textbf{0,979} & \textbf{0,980} \\
             \bottomrule
         \end{tabular}
         \vspace{1mm}

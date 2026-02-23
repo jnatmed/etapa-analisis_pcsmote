@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.15)  15 FEB 2026 16:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.15)  20 FEB 2026 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**
+**.\pasaje_a_tablas_predict-faults.tex
 
 ! Emergency stop.
-<*> 
-    
-End of file on the terminal!
+<*> .\pasaje_a_tablas_predict-faults.tex
+                                        
+*** (job aborted, file error in nonstop mode)
 
  
 Here is how much of TeX's memory you used:
  2 strings out of 469922
- 15 string characters out of 5479171
+ 35 string characters out of 5479171
  424319 words of memory out of 5000000
  26935 multiletter control sequences out of 15000+600000
  626825 words of font info for 40 fonts, out of 8000000 for 9000
