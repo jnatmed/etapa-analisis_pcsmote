@@ -72,33 +72,33 @@
     \caption{Rendimiento final: Comparativa de pcsmote vs. Técnicas Clásicas (US Crime)}
     \label{tab:resultados_us_crime_comparativa}
     \small
-    \setlength{\tabcolsep}{4pt}
+    \setlength{\tabcolsep}{3.5pt} % Ajuste para la nueva columna
     \begin{minipage}{\textwidth}
         \centering
-        \begin{tabular}{cllcccccc}
+        \begin{tabular}{cllccccccrc}
             \toprule
-            \thead{Exp.} & \thead{Umbral IF} & \thead{Técnica} & \thead{Sem. Val.*} & \thead{Sintet.} & \thead{Train Final\\(Orig + Sintet.)} & \thead{F1\_M Test} & \thead{F1\_W Test} & \thead{Acc Test} \\
+            \thead{Exp.} & \thead{Umbral IF} & \thead{Técnica} & \thead{Sem. Val.*} & \thead{Sintet.} & \thead{Train Final\\(Orig + Sintet.)} & \thead{F1\_M\\Test} & \thead{$\Delta$\\(F1\_M)} & \thead{F1\_W\\Test} & \thead{Acc\\Test} \\
             \midrule
-            -- & -- & \textbf{Caso Base} & -- & -- & 1595 & 0,765 & 0,940 & 0,945 \\
+            -- & -- & \textbf{Caso Base} & -- & -- & 1595 & 0,765 & -- & 0,940 & 0,945 \\
             \midrule
-            \textbf{E1} & \multirow{4}{*}{\shortstack{0\% \\ (candidatas: \\ 120)}} & \textbf{pcsmote} & \textbf{21} & \textbf{1355} & \textbf{2950} & \textbf{0,801} & \textbf{0,948} & \textbf{0,952} \\
-            -- & & adasyn & -- & 1368 & 2963 & 0,752 & 0,928 & 0,925 \\
-            -- & & smote & -- & 1355 & 2950 & 0,736 & 0,923 & 0,920 \\
-            -- & & borderline & -- & 1355 & 2950 & 0,725 & 0,923 & 0,922 \\
+            \textbf{E1} & \multirow{4}{*}{\shortstack{0\% \\ (candidatas: \\ 120)}} & \textbf{pcsmote} & \textbf{21} & \textbf{1355} & \textbf{2950} & \textbf{0,801} & \textbf{+0,036} & \textbf{0,948} & \textbf{0,952} \\
+            -- & & adasyn & -- & 1368 & 2963 & 0,752 & -0,013 & 0,928 & 0,925 \\
+            -- & & smote & -- & 1355 & 2950 & 0,736 & -0,029 & 0,923 & 0,920 \\
+            -- & & borderline & -- & 1355 & 2950 & 0,725 & -0,040 & 0,923 & 0,922 \\
             \midrule
-            \textbf{E2} & \multirow{3}{*}{\shortstack{1\% \\ (candidatas: \\ 118)}} & \textbf{pcsmote} & \textbf{2} & \textbf{1342} & \textbf{2920} & \textbf{0,788} & \textbf{0,944} & \textbf{0,947} \\
-            -- & & borderline & -- & 1342 & 2920 & 0,719 & 0,918 & 0,915 \\
-            -- & & smote & -- & 1342 & 2920 & 0,747 & 0,926 & 0,922 \\
+            \textbf{E2} & \multirow{3}{*}{\shortstack{1\% \\ (candidatas: \\ 118)}} & \textbf{pcsmote} & \textbf{2} & \textbf{1342} & \textbf{2920} & \textbf{0,788} & \textbf{+0,023} & \textbf{0,944} & \textbf{0,947} \\
+            -- & & borderline & -- & 1342 & 2920 & 0,719 & -0,046 & 0,918 & 0,915 \\
+            -- & & smote & -- & 1342 & 2920 & 0,747 & -0,018 & 0,926 & 0,922 \\
             \midrule
-            \textbf{E3} & \multirow{4}{*}{\shortstack{3\% \\ (candidatas: \\ 116)}} & \textbf{pcsmote} & \textbf{6} & \textbf{1314} & \textbf{2860} & \textbf{0,742} & \textbf{0,931} & \textbf{0,935} \\
-            -- & & smote & -- & 1314 & 2860 & 0,715 & 0,916 & 0,912 \\
-            -- & & adasyn & -- & 1304 & 2850 & 0,725 & 0,917 & 0,910 \\
-            -- & & borderline & -- & 1314 & 2860 & 0,707 & 0,913 & 0,907 \\
+            \textbf{E3} & \multirow{4}{*}{\shortstack{3\% \\ (candidatas: \\ 116)}} & \textbf{pcsmote} & \textbf{6} & \textbf{1314} & \textbf{2860} & \textbf{0,742} & \textbf{-0,023} & \textbf{0,931} & \textbf{0,935} \\
+            -- & & smote & -- & 1314 & 2860 & 0,715 & -0,050 & 0,916 & 0,912 \\
+            -- & & adasyn & -- & 1304 & 2850 & 0,725 & -0,040 & 0,917 & 0,910 \\
+            -- & & borderline & -- & 1314 & 2860 & 0,707 & -0,058 & 0,913 & 0,907 \\
             \bottomrule
         \end{tabular}
         \vspace{1mm}
         \begin{flushleft}
-            \footnotesize * Semillas candidatas validadas en el conjunto de entrenamiento (train). Nota: Los experimentos E1, E2 y E3 resaltan la variante de pcsmote con mejor desempeño para cada nivel de filtrado.
+            \footnotesize * Semillas candidatas validadas en el conjunto de entrenamiento (train). $\Delta$ (F1\_M) representa la ganancia o pérdida absoluta respecto al Caso Base. Nota: Los experimentos E1, E2 y E3 resaltan la variante de pcsmote con mejor desempeño para cada nivel de filtrado.
         \end{flushleft}
     \end{minipage}
 \end{table}

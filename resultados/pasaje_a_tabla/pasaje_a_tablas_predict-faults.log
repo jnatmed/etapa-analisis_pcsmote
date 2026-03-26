@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.15)  20 FEB 2026 23:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.15)  24 FEB 2026 00:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -313,11 +313,11 @@ L3 programming layer <2025-04-29>
 Here is how much of TeX's memory you used:
  5207 strings out of 469922
  85552 string characters out of 5479171
- 503341 words of memory out of 5000000
+ 505341 words of memory out of 5000000
  32019 multiletter control sequences out of 15000+600000
  634443 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,19n,65p,309b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,19n,65p,337b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\FamiliaNatelloMedina\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
 /ec/dpi600\ecti0800.pk> <C:\Users\FamiliaNatelloMedina\AppData\Local\MiKTeX\fon
 ts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\FamiliaNatelloMedina\App
@@ -325,10 +325,11 @@ Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Fam
 iliaNatelloMedina\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0
 900.pk> <C:\Users\FamiliaNatelloMedina\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
 appen/ec/dpi600\ecrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb>
-Output written on pasaje_a_tablas_predict-faults.pdf (1 page, 70374 bytes).
+s/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on pasaje_a_tablas_predict-faults.pdf (1 page, 89047 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
+ 228 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

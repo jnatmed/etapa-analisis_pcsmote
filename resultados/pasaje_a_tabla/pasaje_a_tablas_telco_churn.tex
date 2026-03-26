@@ -71,30 +71,30 @@
     \caption{Rendimiento final en conjunto de prueba ordenado por F1 Macro (Telco Churn)}
     \label{tab:resultados_telco_churn_ordenados}
     \small
-    \setlength{\tabcolsep}{4pt}
+    \setlength{\tabcolsep}{3pt} % Ajuste para la nueva columna
     \begin{minipage}{\textwidth}
         \centering
-        \begin{tabular}{cclcccccc}
+        \begin{tabular}{cclccccccrc}
             \toprule
-            \thead{Ranking} & \thead{Umbral IF} & \thead{Técnica} & \thead{Sem. Val.*} & \thead{Sintet.} & \thead{Train Final\\(Orig + Sintet.)} & \thead{F1\_M Test} & \thead{F1\_W Test} & \thead{Acc Test} \\
+            \thead{Ranking} & \thead{Umbral IF} & \thead{Técnica} & \thead{Sem. Val.*} & \thead{Sintet.} & \thead{Train Final\\(Orig + Sintet.)} & \thead{F1\_M\\Test} & \thead{$\Delta$\\(F1\_M)} & \thead{F1\_W\\Test} & \thead{Acc\\Test} \\
             \midrule
-            -- & \%0 & \textbf{Caso Base} & -- & -- & 5634 & 0,705 & 0,779 & 0,789 \\
-            -- & \%1 & \textbf{Caso Base} & -- & -- & 5577 & 0,702 & 0,776 & 0,786 \\
+            -- & 0\% & \textbf{Caso Base} & -- & -- & 5634 & 0,705 & -- & 0,779 & 0,789 \\
+            -- & 1\% & \textbf{Caso Base} & -- & -- & 5577 & 0,702 & -- & 0,776 & 0,786 \\
             \midrule
-            1 & \multirow{4}{*}{\shortstack{0\% \\ (candidatas: \\ 1495)}} & smote & -- & 2644 & 8278 & 0,711 & 0,782 & 0,790 \\
-            2 & & adasyn & -- & 2594 & 8228 & 0,710 & 0,773 & 0,771 \\
-            3 & & \textbf{pcsmote (E2)} & \textbf{897} & \textbf{2644} & \textbf{8278} & \textbf{0,708} & \textbf{0,775} & \textbf{0,778} \\
-            4 & & borderline & -- & 2644 & 8278 & 0,708 & 0,770 & 0,768 \\
+            1 & \multirow{4}{*}{\shortstack{0\% \\ (candidatas: \\ 1495)}} & smote & -- & 2644 & 8278 & 0,711 & +0,006 & 0,782 & 0,790 \\
+            2 & & adasyn & -- & 2594 & 8228 & 0,710 & +0,005 & 0,773 & 0,771 \\
+            3 & & \textbf{pcsmote (E2)} & \textbf{897} & \textbf{2644} & \textbf{8278} & \textbf{0,708} & \textbf{+0,003} & \textbf{0,775} & \textbf{0,778} \\
+            4 & & borderline & -- & 2644 & 8278 & 0,708 & +0,003 & 0,770 & 0,768 \\
             \midrule
-            1 & \multirow{4}{*}{\shortstack{1\% \\ (candidatas: \\ 1480)}} & \textbf{pcsmote (E1)} & \textbf{495} & \textbf{2617} & \textbf{8194} & \textbf{0,715} & \textbf{0,783} & \textbf{0,788} \\
-            2 & & smote & -- & 2617 & 8194 & 0,713 & 0,776 & 0,776 \\
-            3 & & adasyn & -- & 2535 & 8112 & 0,712 & 0,776 & 0,771 \\
-            4 & & borderline & -- & 2617 & 8194 & 0,703 & 0,766 & 0,763 \\
+            1 & \multirow{4}{*}{\shortstack{1\% \\ (candidatas: \\ 1480)}} & \textbf{pcsmote (E1)} & \textbf{495} & \textbf{2617} & \textbf{8194} & \textbf{0,715} & \textbf{+0,013} & \textbf{0,783} & \textbf{0,788} \\
+            2 & & smote & -- & 2617 & 8194 & 0,713 & +0,011 & 0,776 & 0,776 \\
+            3 & & adasyn & -- & 2535 & 8112 & 0,712 & +0,010 & 0,776 & 0,771 \\
+            4 & & borderline & -- & 2617 & 8194 & 0,703 & +0,001 & 0,766 & 0,763 \\
             \bottomrule
         \end{tabular}
         \vspace{1mm}
         \begin{flushleft}
-            \footnotesize * Semillas candidatas validadas en train. Nota: Las técnicas están ordenadas por F1\_M Test dentro de cada bloque de filtrado para mostrar el ranking real de pcsmote.
+            \footnotesize * Semillas candidatas validadas en train. $\Delta$ (F1\_M) representa la mejora absoluta respecto al Caso Base del umbral correspondiente. Nota: Las técnicas están ordenadas por F1\_M Test para mostrar el ranking real de pcsmote.
         \end{flushleft}
     \end{minipage}
 \end{table}

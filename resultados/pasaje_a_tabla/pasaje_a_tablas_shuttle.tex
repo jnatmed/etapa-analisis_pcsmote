@@ -72,29 +72,29 @@
     \caption{Rendimiento final en conjunto de prueba ordenado por F1 Macro (Shuttle)}
     \label{tab:resultados_shuttle_completa}
     \small
-    \setlength{\tabcolsep}{4pt}
+    \setlength{\tabcolsep}{3.5pt} % Ajuste fino para la nueva columna
     \begin{minipage}{\textwidth}
         \centering
-        \begin{tabular}{cllcccccc}
+        \begin{tabular}{cllccccccrc}
             \toprule
-            \thead{Ranking} & \thead{Umbral \\ Isolation \\ Forest} & \thead{Técnica} & \thead{Sem. Val.*} & \thead{Sintet.} & \thead{Train Final\\(Orig + Sintet.)} & \thead{F1\_M Test} & \thead{F1\_W Test} & \thead{Acc Test} \\
+            \thead{Ranking} & \thead{Umbral \\ IF} & \thead{Técnica} & \thead{Sem. Val.*} & \thead{Sintet.} & \thead{Train Final\\(Orig + Sintet.)} & \thead{F1\_M\\Test} & \thead{$\Delta$\\(F1\_M)} & \thead{F1\_W\\Test} & \thead{Acc\\Test} \\
             \midrule
-            -- & -- & \textbf{Caso Base} & -- & -- & 46400 & 0,855 & 1,000 & 1,000 \\
+            -- & -- & \textbf{Caso Base} & -- & -- & 46400 & 0,855 & -- & 1,000 & 1,000 \\
             \midrule
-            1 & \multirow{4}{*}{\shortstack{0\% \\ (candidatas: \\ 9931)}} & adasyn & -- & 208961 & 255361 & 0,952 & 1,000 & 1,000 \\
-            2 & & borderline & -- & 172454 & 218854 & 0,952 & 1,000 & 1,000 \\
-            3 & & smote & -- & 208883 & 255283 & 0,950 & 1,000 & 1,000 \\
-            4 & & \textbf{pcsmote (E2)} & \textbf{6756} & \textbf{135963} & \textbf{182363} & \textbf{0,857} & \textbf{1,000} & \textbf{1,000} \\
+            1 & \multirow{4}{*}{\shortstack{0\% \\ (candidatas: \\ 9931)}} & adasyn & -- & 208961 & 255361 & 0,952 & +0,097 & 1,000 & 1,000 \\
+            2 & & borderline & -- & 172454 & 218854 & 0,952 & +0,097 & 1,000 & 1,000 \\
+            3 & & smote & -- & 208883 & 255283 & 0,950 & +0,095 & 1,000 & 1,000 \\
+            4 & & \textbf{pcsmote (E2)} & \textbf{6756} & \textbf{135963} & \textbf{182363} & \textbf{0,857} & \textbf{+0,002} & \textbf{1,000} & \textbf{1,000} \\
             \midrule
-            1 & \multirow{4}{*}{\shortstack{1\% \\ (candidatas: \\ 9828)}} & adasyn & -- & 206831 & 252763 & 0,991 & 1,000 & 1,000 \\
-            2 & & borderline & -- & 170731 & 216663 & 0,991 & 1,000 & 1,000 \\
-            3 & & smote & -- & 206796 & 252728 & 0,950 & 1,000 & 1,000 \\
-            4 & & \textbf{pcsmote (E1)} & \textbf{7685} & \textbf{206796} & \textbf{252728} & \textbf{0,950} & \textbf{1,000} & \textbf{1,000} \\
+            1 & \multirow{4}{*}{\shortstack{1\% \\ (candidatas: \\ 9828)}} & adasyn & -- & 206831 & 252763 & 0,991 & +0,136 & 1,000 & 1,000 \\
+            2 & & borderline & -- & 170731 & 216663 & 0,991 & +0,136 & 1,000 & 1,000 \\
+            3 & & smote & -- & 206796 & 252728 & 0,950 & +0,095 & 1,000 & 1,000 \\
+            4 & & \textbf{pcsmote (E1)} & \textbf{7685} & \textbf{206796} & \textbf{252728} & \textbf{0,950} & \textbf{+0,095} & \textbf{1,000} & \textbf{1,000} \\
             \bottomrule
         \end{tabular}
         \vspace{1mm}
         \begin{flushleft}
-            \footnotesize * Semillas candidatas validadas en el conjunto de entrenamiento (train). Nota: Las técnicas están ordenadas por F1\_M Test dentro de cada bloque.
+            \footnotesize * Semillas candidatas validadas en el conjunto de entrenamiento (train). $\Delta$ (F1\_M) representa la mejora absoluta respecto al Caso Base. Nota: Las técnicas están ordenadas por F1\_M Test dentro de cada bloque.
         \end{flushleft}
     \end{minipage}
 \end{table}
